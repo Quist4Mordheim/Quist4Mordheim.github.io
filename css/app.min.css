@@ -2,11 +2,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #0CF9F4
+    color: #f9a50c
 }
 .modal-content,
 body {
-    background-color: #082702
+    background-color: #110011
 }
 body {
     color: #eee;
@@ -358,7 +358,7 @@ label {
     padding-top: 12px;
     padding-bottom: 4px;
     border-bottom: 1px solid #777;
-    color: #0CF9F4;
+    color: #f9a50c;
     font-family: Vollkorn, serif;
     text-shadow: 1px 2px 2px #000;
     text-transform: uppercase;
@@ -427,12 +427,12 @@ label {
     text-decoration: none
 }
 .attribute-table tr>td.attribute-actions a.attribute-action-increase {
-    color: #0CF9F4;
+    color: #f9a50c;
     text-shadow: 1px 1px 1px #000
 }
 .attribute-table tr>td.attribute-actions a.attribute-action-increase:active,
 .attribute-table tr>td.attribute-actions a.attribute-action-increase:hover {
-    color: #0CF9F4
+    color: #f9a50c
 }
 .attribute-table tr>td.attribute-actions a.attribute-action-decrease {
     color: #ff1e1e;
@@ -656,7 +656,7 @@ span.ability-option-label {
     margin-bottom: 30px
 }
 .panel-profile-icons h2 {
-    color: #0CF9F4
+    color: #f9a50c
 }
 .panel-profile-icons-warband {
     clear: both;

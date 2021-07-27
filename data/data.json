@@ -1306,7 +1306,7 @@
 				"trap": 0
 			},
 			"other": {
-				"movement": 6
+				"movement": 5
 			},
 			"skills": [
 				"terror"
@@ -3691,7 +3691,7 @@
 			"type": "leader",
 			"rating": 114,
 			"skillpoints": 30,
-			"spellpoints": 0,
+			"spellpoints": 18,
 			"attributepoints": {
 				"physical": 14,
 				"mental": 14,
@@ -3741,6 +3741,9 @@
 			"skills": [
 				"terror"
 			],
+			"spells": [
+				"call_of_vanhel"
+			],			
 			"perks": [
 				"unwavering"
 			],
@@ -3748,8 +3751,12 @@
 			"restrictions": {
 				"skills": [
 					"leader",
+					"arcane_caster",
 					"undead"
 				],
+				"spells": [
+					"undead"
+				],				
 				"equipment": [
 					"empty_hand",
 					"axe",
@@ -3876,7 +3883,7 @@
 			"type": "hero",
 			"rating": 96,
 			"skillpoints": 30,
-			"spellpoints": 0,
+			"spellpoints": 2,
 			"attributepoints": {
 				"physical": 13,
 				"mental": 15,
@@ -3926,14 +3933,21 @@
 			"skills": [
 				"fear"
 			],
+			"spells": [
+				"corpse_flesh"
+			],	
 			"perks": [
 				"unwavering"
 			],
 			"icon": "undead_vampire_thrall",
 			"restrictions": {
 				"skills": [
+					"arcane_caster",
 					"undead"
 				],
+				"spells": [
+					"undead"
+				],				
 				"equipment": [
 					"empty_hand",
 					"axe",
@@ -4388,8 +4402,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals +25% damage. Target has a -20% chance to Parry this attack.",
-					"mastery": "Parry chance penalty and damage increases to 50%."
+					"basic": "A melee attack that deals +45% damage. Target has a -25% chance to Parry this attack.",
+					"mastery": "Parry chance penalty increases to 50% and damage increases to 90%."
 				},
 				"info": {
 					"cost": {
@@ -4728,8 +4742,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a melee attack that deals +50% damage but with a -10% chance to hit. Also allows 1 attempt to Dodge an incoming melee attack with +5% chance.",
-					"mastery": "Ambush Critical Hit and Dodge chance increased to 15%. Cost of using reduced by 1OP. Easy to Master."
+					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a melee attack that deals +50% damage but with a -10% chance to hit. Also allows 1 attempt to Dodge an incoming melee attack with +10% chance.",
+					"mastery": "Ambush Critical Hit and Dodge chance increased to 30%. Cost of using reduced by 1OP. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -5234,11 +5248,11 @@
 					"mastery": 12
 				},
 				"cost": {
-					"basic": 2,
+					"basic": 0,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost.",
+					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost. Trivial to Train.",
 					"mastery": "The Casting penalty is reduced to 5%."
 				},
 				"info": {
@@ -5260,11 +5274,11 @@
 					"mastery": 12
 				},
 				"cost": {
-					"basic": 2,
+					"basic": 0,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost.",
+					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost. Trivial to Train.",
 					"mastery": "The Casting penalty is reduced to 5%."
 				},
 				"info": {
@@ -5295,7 +5309,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 2
+						"strategy": 1
 					},
 					"range": "15m",
 					"target": "Single enemy",
@@ -5628,8 +5642,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a -10% chance to hit and a 50% damage bonus. Also allows 1 attempt to Parry an incoming melee attack with +5% chance. A successful Parry attempt will reduce the cost of a Counter-Attack by 1 Offense Point. Requires a parrying weapon or a shield.",
-					"mastery": "Ambush Critical hit chance and Parry Chance increases by +15%. Cost of using reduced by 1OP. Easy to Master."
+					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a -10% chance to hit and a 50% damage bonus. Also allows 1 attempt to Parry an incoming melee attack with +10% chance. A successful Parry attempt will reduce the cost of a Counter-Attack by 1 Offense Point. Requires a parrying weapon or a shield.",
+					"mastery": "Ambush Critical hit chance and Parry Chance increases by +30%. Cost of using reduced by 1OP. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -5781,12 +5795,12 @@
 					"mastery": 15
 				},
 				"cost": {
-					"basic": 0,
+					"basic": 2,
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Take a stance that ends the current turn. Shoot the next enemy that moves into range for regular damage but with a -10% chance to hit and a +5% chance to Critically hit. Also allows 1 attempt to Dodge an incoming melee attack with +5% chance. Trivial to Train.",
-					"mastery": "No hit chance penalty and +15% Critical hit chance for the Overwatch shot. Dodge chance increases to +15%. Easy to Master."
+					"basic": "Take a stance that ends the current turn. Shoot the next enemy that moves into range for regular damage but with a -10% chance to hit and a +10% chance to Critically hit. Also allows 1 attempt to Dodge an incoming melee attack with +10% chance.",
+					"mastery": "No hit chance penalty and +30% Critical hit chance for the Overwatch shot. Dodge chance increases to +30%. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -5838,8 +5852,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A ranged attack that deals regular damage and has a +20% Critical hit chance.",
-					"mastery": "Critical hit chance increases to +40%."
+					"basic": "A ranged attack that deals regular damage and has a +15% Critical hit chance.",
+					"mastery": "Critical hit chance increases to +30%."
 				},
 				"info": {
 					"cost": {
@@ -5864,8 +5878,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage and has a +20% Critical hit chance.",
-					"mastery": "Critical hit chance increases to +40%."
+					"basic": "A melee attack that deals regular damage and has a +15% Critical hit chance.",
+					"mastery": "Critical hit chance increases to +30%."
 				},
 				"info": {
 					"cost": {
@@ -6020,8 +6034,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A ranged attack that deal regular damage and has a +20% chance to hit, Critical hit chance, and Critical hit damage.",
-					"mastery": "Chance to hit, Critical hit chance and Critical hit damage increases to 40%."
+					"basic": "A ranged attack that deal regular damage and has a +15% chance to hit and Critical hit chance, and +30% Critical hit damage.",
+					"mastery": "Chance to hit and Critical hit chance increases to 30% and Critical hit damage to 60%."
 				},
 				"info": {
 					"cost": {
@@ -6317,8 +6331,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If it hits, increases melee Damage by 10% and melee Critical hit chance by 5% for 2 turns. Not Stackable.",
-					"mastery": "Damage increases to 15% and critical chance by 10% for 3 turns. Easy to Master."
+					"basic": "A melee attack that deals regular damage. If it hits, increases melee Damage by 20% and melee Critical hit chance by 5% for 2 turns. Not Stackable.",
+					"mastery": "Damage increases to 25% and critical chance by 10% for 3 turns. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -7335,12 +7349,22 @@
 					"mastery": 9
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the loss of Strategy and Offense Points when recovering from Stun by 1. Trivial to Train.",
-					"mastery": "Loss of Strategy and Offense Points reduced by 2. Easy to Master."
+					"basic": "Adds +5 to Physical attribute Maximums. Reduces the loss of Strategy and Offense Points when recovering from Stun.",
+					"mastery": "Adds +5 Physical attribute points."
+				},
+				"effects": {
+					"basic": {
+						"strength": 5,
+						"toughness": 5,
+						"agility": 5
+					},
+					"mastery": {
+						"physical": 5
+					}
 				},
 				"icon": "toughness_quick_recovery"
 			},
@@ -7446,13 +7470,23 @@
 					"mastery": 12
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "When Fleeing, increases Melee Resistance by 20%. Trivial to Train.",
-					"mastery": "Melee Resistance increases to 60%. Easy to Master."
+					"basic": "Adds +5 to Martial attribute Maximums. When Fleeing, increases Armour Absorption by 60%.",
+					"mastery": "Adds +5 Martial attribute points."					
 				},
+				"effects": {
+					"basic": {
+						"weapon_skill": 5,
+						"ballistic_skill": 5,
+						"accuracy": 5
+					},
+					"mastery": {
+						"martial": 5
+					}
+				},				
 				"icon": "agility_acrobatic"
 			},
 			"counterblow": {
@@ -7476,23 +7510,23 @@
 				"name": "Avoid",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 9,
+					"mastery": 15
 				},
 				"cost": {
 					"basic": 2,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge chance by 10%.",
-					"mastery": "Dodge chance increases to 30%."
+					"basic": "Increases Dodge chance by 15%.",
+					"mastery": "Dodge chance increases to 45%."
 				},
 				"effects": {
 					"basic": {
-						"dodge": 10
+						"dodge": 15
 					},
 					"mastery": {
-						"dodge": 30
+						"dodge": 45
 					}
 				},
 				"icon": "agility_avoid"
@@ -7501,8 +7535,8 @@
 				"name": "Quick Draw",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 9,
-					"mastery": 15
+					"basic": 6,
+					"mastery": 12
 				},
 				"cost": {
 					"basic": 2,
@@ -7582,17 +7616,21 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Morale by 4.",
-					"mastery": "Morale increases to 12. Easy to Master."
-				},
+					"basic": "Adds +5 to Mental attribute Maximums. Also increases Morale by 5.",
+					"mastery": "Adds +5 Mental attribute points. Morale increases to 12."					
+				},				
 				"effects": {
 					"basic": {
-						"morale": 4
+						"leadership": 5,
+						"intelligence": 5,
+						"alertness": 5,
+						"morale": 5
 					},
 					"mastery": {
+						"mental": 5,
 						"morale": 12
 					}
 				},
@@ -7611,7 +7649,7 @@
 				},
 				"description": {
 					"basic": "Reduces the cost of the skill Retreat by 1 Strategy Point. Trivial to Train.",
-					"mastery": "Also reduces the cost of Coordination by 1 Strategy Point and Order by 1 Offense Point."
+					"mastery": "Also reduces the cost of Rallying Cry by 1 Strategy Point and Order by 1 Offense Point."
 				},
 				"icon": "leadership_battle_tongue"
 			},
@@ -7679,7 +7717,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After passing an All Alone, Fear, or Terror test, increases Melee Resistance by 10% for 2 turns. Stackable.",
+					"basic": "After passing an All Alone, Fear, or Terror test, increases Melee Resistance by 15% for 2 turns. Stackable.",
 					"mastery": "Melee Resistance increases to 20% for 3 turns. Stackable."
 				},
 				"icon": "leadership_serenity"
@@ -7697,7 +7735,7 @@
 				},
 				"description": {
 					"basic": "Reduces the cost of the skill Courage by 1 Strategy Point. Trivial to Train.",
-					"mastery": "Also reduces the cost of Rallying Cry and Warcry by 1 Strategy Point. Easy to Master."
+					"mastery": "Also reduces the cost of Coordination and Warcry by 1 Strategy Point. Easy to Master."
 				},
 				"icon": "leadership_heroic_presence"
 			},
@@ -7705,16 +7743,16 @@
 				"name": "Born Leader",
 				"attribute": "leadership",
 				"requirements": {
-					"basic": 9,
-					"mastery": 15
+					"basic": 3,
+					"mastery": 9
 				},
 				"cost": {
-					"basic": 2,
-					"mastery": 2
+					"basic": 0,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point if the new Leader is not a Caster.",
-					"mastery": "Also provides 3 Physical, 4 Mental, and 3 Martial stat points, 4 skill points, and increases maximum Morale by 3. Easy to Master."
+					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point if the new Leader is not a Caster. Trivial to Train.",
+					"mastery": "Also provides 3 Physical, 4 Mental, and 3 Martial stat points, 4 skill points, and increases maximum Morale by 3."
 				},
 				"effects": {
 					"basic": {
@@ -7849,11 +7887,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
 					"basic": "Promote the Henchman to Hero. Increases Initiative by 2, Morale by 3, Strategy Points by 1, and Offense Points by 2. Allows training of skill masteries.",
-					"mastery": "Also provides 3 of each Physical, Mental, and Martial stat points and raises their maximums by 2. Also provides 20 skill points and 2 Offense Points. Easy to Master."
+					"mastery": "Also provides 3 of each Physical, Mental, and Martial stat points and raises their maximums by 2. Also provides 22 skill points and 2 Offense Points."
 				},
 				"effects": {
 					"basic": {
@@ -7877,7 +7915,7 @@
 						"ballistic_skill": 2,
 						"accuracy": 2,
 						"points_offense": 2,
-						"skillpoints": 20
+						"skillpoints": 22
 					}
 				},
 				"icon": "intelligence_lads_god_talent"
@@ -8213,15 +8251,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Parry chance by 10%.",
-					"mastery": "Parry chance increases to 30%."
+					"basic": "Increases Parry chance by 15%.",
+					"mastery": "Parry chance increases to 45%."
 				},
 				"effects": {
 					"basic": {
-						"parry": 10
+						"parry": 15
 					},
 					"mastery": {
-						"parry": 30
+						"parry": 45
 					}
 				},
 				"icon": "weapon_flash_parry"
@@ -8239,7 +8277,7 @@
 				},
 				"description": {
 					"basic": "Increases Melee Resistance and Parry chance by 5% when equipped with a shield.",
-					"mastery": "Melee Resistance and Parry chance increases to 10%."
+					"mastery": "Melee Resistance and Parry chance increases to 15%."
 				},
 				"effects": {
 					"basic": {
@@ -8247,8 +8285,8 @@
 						"parry": 5
 					},
 					"mastery": {
-						"melee": 10,
-						"parry": 10
+						"melee": 15,
+						"parry": 15
 					},
 					"restrictions": [
 						"shield"
@@ -8628,7 +8666,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After missing with a melee attack, Melee Resistance increases by 3% for 3 turns. Stackable."
+					"basic": "After missing with a melee attack, Melee Resistance increases by 9% for 3 turns. Stackable."
 				},
 				"icon": "mercenaries_adaptable_defense"
 			},
@@ -8778,7 +8816,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After gathering a Wyrdstone, Movement range increases by 2 meters for 3 turns. Not Stackable."
+					"basic": "After gathering a Wyrdstone, Movement range increases by 4 meters for 3 turns. Not Stackable."
 				},
 				"icon": "sisters_repentance"
 			},
@@ -9641,8 +9679,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After gathering a Wyrdstone, increases movement range by 1 meter for 3 turns. Not Stackable.",
-					"mastery": "Movement increased by 2 meters instead."
+					"basic": "After gathering a Wyrdstone, increases movement range by 2 meters for 3 turns. Not Stackable.",
+					"mastery": "Movement increased by 4 meters instead."
 				},
 				"icon": "witch_hunters_ardent_cleansing"
 			},
@@ -10942,7 +10980,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "When performing a melee or ranged attack, inflicts 10-15 damage to self for 2 turns. Priests of Ulric are immune. Not Stackable.",
+				"basic": "When performing a melee or ranged attack, inflicts 10-15 damage to self for 2 turns. Priests of Ulric are immune. Target gets one initial chance to resist magic. Not Stackable.",
 				"mastery": "Damage increases to 15-20, range to 30m, duration to 3 turns. Casting chance and Wrath chance +5%"
 			},
 			"info": {
@@ -11334,8 +11372,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 5% for 2 turns. Not Stackable.",
-				"mastery": "Armour Absorbtion boost increases to 10%, range to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
+				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10% for 2 turns. Not Stackable.",
+				"mastery": "Armour Absorbtion boost increases to 15%, range to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11890,11 +11928,11 @@
 		"extra_limb_blade": {
 			"name": "Extra Limb - Blade",
 			"slot": "extra_limb",
-			"description": "Melee attacks gain the following benefits:<br>Melee Damage +10%<br>Attacks bypass 15% Dodge chance.<br>Critical hit chance +5%.",
+			"description": "Melee attacks gain the following benefits:<br>Melee Damage +10%<br>Attacks bypass 15% Dodge chance.<br>Critical hit chance +8%.",
 			"effects": {
 				"melee_damage": 10,
 				"dodge_bypass": 15,
-				"critical_hit_chance": 5
+				"critical_hit_chance": 8
 			}
 		},
 		"extra_limb_mace": {
@@ -12233,6 +12271,58 @@
 				"effects": {
 					"normal": {
 						"damage": {
+							"min": 23,
+							"max": 25
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 29,
+							"max": 31
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 35,
+							"max": 37
+						}
+					}
+				}
+			},
+			"armband_crusher": {
+				"type": "melee",
+				"name": "Armband when worn on a Crusher mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 20,
+							"max": 28
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 26,
+							"max": 34
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 32,
+							"max": 40
+						}
+					}
+				}
+			},
+			"armband_destroyer": {
+				"type": "melee",
+				"name": "Armband when worn on a Destroyer mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
 							"min": 13,
 							"max": 21
 						}
@@ -12247,6 +12337,136 @@
 						"damage": {
 							"min": 25,
 							"max": 33
+						}
+					}
+				}
+			},
+			"armband_executioner": {
+				"type": "melee",
+				"name": "Armband when worn on a Executioner mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 16,
+							"max": 20
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 22,
+							"max": 26
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 28,
+							"max": 32
+						}
+					}
+				}
+			},
+			"armband_piercer": {
+				"type": "melee",
+				"name": "Armband when worn on a Piercer mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 20,
+							"max": 22
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 26,
+							"max": 28
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 32,
+							"max": 34
+						}
+					}
+				}
+			},
+			"armband_ripper": {
+				"type": "melee",
+				"name": "Armband when worn on a Ripper mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 13,
+							"max": 23
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 19,
+							"max": 29
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 25,
+							"max": 35
+						}
+					}
+				}
+			},
+			"armband_slicer": {
+				"type": "melee",
+				"name": "Armband when worn on a Slicer mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 16,
+							"max": 20
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 22,
+							"max": 26
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 28,
+							"max": 32
+						}
+					}
+				}
+			},
+			"armband_smasher": {
+				"type": "melee",
+				"name": "Armband when worn on a Smasher mutation",
+				"description": "Overwhelm: Attack cannot be parried.",
+				"initiative": 0,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 23,
+							"max": 31
+						}
+					},
+					"good": {
+						"damage": {
+							"min": 29,
+							"max": 37
+						}
+					},
+					"masterwork": {
+						"damage": {
+							"min": 35,
+							"max": 43
 						}
 					}
 				}
