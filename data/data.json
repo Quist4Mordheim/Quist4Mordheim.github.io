@@ -1306,7 +1306,7 @@
 				"trap": 0
 			},
 			"other": {
-				"movement": 5
+				"movement": 6
 			},
 			"skills": [
 				"terror"
@@ -2205,7 +2205,7 @@
 					"max": 15
 				},
 				"toughness": {
-					"min": 3,
+					"min": 2,
 					"max": 14
 				},
 				"agility": {
@@ -2229,7 +2229,7 @@
 					"max": 16
 				},
 				"ballistic_skill": {
-					"min": 2,
+					"min": 3,
 					"max": 9
 				},
 				"accuracy": {
@@ -3989,11 +3989,11 @@
 					"max": 18
 				},
 				"toughness": {
-					"min": 5,
+					"min": 4,
 					"max": 12
 				},
 				"agility": {
-					"min": 3,
+					"min": 4,
 					"max": 12
 				},
 				"leadership": {
@@ -8583,12 +8583,12 @@
 					"mastery": 15
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Critical hit damage by 20%. Trivial to Train.",
-					"mastery": "Critical damage increases to 60%. Easy to Master."
+					"basic": "Increases Critical hit damage by 20%.",
+					"mastery": "Critical damage increases to 60%."
 				},
 				"effects": {
 					"basic": {
@@ -8629,15 +8629,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Critical hit Resistance by 10%.",
-					"mastery": "Critical Resistance increases to 30%."
+					"basic": "Increases Critical hit Resistance by 15%.",
+					"mastery": "Critical Resistance increases to 45%."
 				},
 				"effects": {
 					"basic": {
 						"critical_hit": 15
 					},
 					"mastery": {
-						"critical_hit": 30
+						"critical_hit": 45
 					}
 				},
 				"icon": "mercenaries_flawless_positioning"
@@ -8666,7 +8666,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After missing with a melee attack, Melee Resistance increases by 9% for 3 turns. Stackable."
+					"basic": "After missing with a melee attack, Melee Resistance increases by 8% for 3 turns. Stackable."
 				},
 				"icon": "mercenaries_adaptable_defense"
 			},
@@ -9025,8 +9025,16 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "After every Delay, Climb, Leap, or Jump Down action, received a 40% chance to recover 1 Strategy Point.",
-					"mastery": "Recover chance increases to 80%. Easy to Master."
+					"basic": "After every Delay, Climb, Leap, or Jump Down action, receive a 80% chance to recover 1 Strategy Point.",
+					"mastery": "Also increases movement range with +1 meter. Easy to Master."
+				},
+				"effects": {
+					"basic": {
+						"movement": 0
+					},
+					"mastery": {
+						"movement": 1
+					}
 				},
 				"icon": "possessed_chaos_evolution"
 			},
@@ -9508,8 +9516,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After missing a melee attack, Spell Damage increases by 10% for 2 turns. Stackable.",
-					"mastery": "Spell damage increases by 20% for 3 turns instead."
+					"basic": "After missing a melee attack, Spell Damage increases by 20% for 2 turns. Stackable.",
+					"mastery": "Spell damage increases by 30% for 3 turns instead."
 				},
 				"icon": "wolf_priest_ulrics_fury"
 			},
@@ -9676,11 +9684,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "After gathering a Wyrdstone, increases movement range by 2 meters for 3 turns. Not Stackable.",
-					"mastery": "Movement increased by 4 meters instead."
+					"mastery": "Movement increased by 3 meters instead. Easy to Master."
 				},
 				"icon": "witch_hunters_ardent_cleansing"
 			},
@@ -9696,8 +9704,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After failing a Magic Resistance test, increases Melee Damage by 15% for 2 turns. Stackable.",
-					"mastery": "Melee damage boost increases to 20% and duration to 3 turns."
+					"basic": "After failing a Magic Resistance test, increases Melee Damage by 15% for 3 turns. Stackable.",
+					"mastery": "Melee damage boost increases to 30%."
 				},
 				"icon": "witch_hunters_sigil_of_sigmar"
 			},
@@ -9782,17 +9790,17 @@
 				"cost": {
 					"basic": 2,
 					"mastery": 4
-				},
+				},				
 				"description": {
-					"basic": "Increases the resistance to Critical hit by 10%.",
-					"mastery": "Critical hit Resistance increases to 30%."
+					"basic": "Increases the maximum wounds of the warrior by 25.",
+					"mastery": "The wounds bonus increases to 75."
 				},
 				"effects": {
 					"basic": {
-						"critical_hit": 10
+						"wounds": 25
 					},
 					"mastery": {
-						"critical_hit": 30
+						"wounds": 75
 					}
 				},
 				"icon": "undead_body_reconstruction"
@@ -10058,12 +10066,12 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces movement range by 1 meter for 2 turns. Reduce the chance to pass Climb, Leap, Jump Down, and Dodge tests by 20% for 2 turns. Not Stackable.",
-				"mastery": "Movement reduction increases to 2 meters, other penalties to 30%, range to 30 meters and duration to 3 turns..<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Reduces movement range by 2 meters for 2 turns. Reduce the chance to pass Climb, Leap, Jump Down, and Dodge tests by 30% for 2 turns. Not Stackable.",
+				"mastery": "Movement reduction increases to 3 meters, other penalties to 40%, range to 30 meters and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
-					"offense": 3
+					"offense": 4
 				},
 				"range": "15m",
 				"duration": "2 turns",
@@ -10119,7 +10127,7 @@
 			},
 			"info": {
 				"cost": {
-					"offense": 4
+					"offense": 3
 				},
 				"range": "30m",
 				"duration": "0 turn",
@@ -10142,8 +10150,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces melee Hit chance by 15% for 2 turns. Not Stackable.<br>Also removes up to 2 current Offense Points, and has a 40% chance to break targets' Stances. Stackable.",
-				"mastery": "Hit chance penalty increases to 20% for 3 turns, Offense Points removed to 4, chance to break stances to 80%.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Reduces melee Hit chance by 10% for 2 turns. Not Stackable.<br>Also removes up to 2 current Offense Points, and breaks the targets' Stance. Stackable.",
+				"mastery": "Hit chance penalty increases to 20% for 3 turns and Offense Points removed to 4.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -11009,7 +11017,7 @@
 			},
 			"description": {
 				"basic": "Deals 8-12 damage and reduces maximum and current Offense Points by 1 for 3 turns. Range is 30 meters. Not Stackable.",
-				"mastery": "Damage increases to 16-24, range to 30m, but range is reduced to 20 meters. Casting chance and Wrath chance +5%"
+				"mastery": "Damage increases to 16-24, but range is reduced to 20 meters. Casting chance and Wrath chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11288,8 +11296,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Summons an idol at target area. When receiving damage, enemies near the totem gain a stackable Debuff that increases Morale Impact by 1 and decreases Stun and Critical Resistance by 5% for 2 turns. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
-				"mastery": "Stun and Critical Resistance penalties increase by 10% for 3 turns, range to 10m. Casting chance and Curse chance +5%"
+				"basic": "Summons an idol at target area. When receiving damage, enemies near the totem gain a stackable Debuff that increases Morale Impact by 1 and decreases Stun and Critical Resistance by 3% for 2 turns. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"mastery": "Stun and Critical Resistance penalties increase by 6% for 3 turns, range to 10m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11601,7 +11609,7 @@
 			},
 			"info": {
 				"cost": {
-					"offense": 3
+					"offense": 2
 				},
 				"range": "15m",
 				"duration": "2 turn",
@@ -11680,14 +11688,14 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Applies a debuff that deals 30-40 damage on the target's second turn, but has no effect on the first turn. Gathering a Wyrdstone removes the debuff. Bypasses Armour Absorption. Not Stackable.",
-				"mastery": "Damage increases to 60-80, range to 30m. Casting chance and Curse chance +5%"
+				"basic": "Applies a debuff that deals 40-80 damage on the target's second turn, but has no effect on the first turn. Gathering a Wyrdstone removes the debuff. Bypasses Armour Absorption. Not Stackable.",
+				"mastery": "Damage increases to 80-160, but range is reduced to 20m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 3
 				},
-				"range": "15m",
+				"range": "30m",
 				"duration": "1 turn",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
@@ -11708,8 +11716,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "When performing a melee attack or an Athletic action, receive a 25% chance to lose 1 OP and SP for 2 turns. Affects only living targets. Not Stackable.",
-				"mastery": "Debuff chance increases to 50%, duration to 3 turns, range to 30m. Casting chance and Curse chance +5%"
+				"basic": "Reduce maximum OP and SP by 1 for 2 turns. Affects only living targets. Not Stackable.",
+				"mastery": "Duration increases to 3 turns, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11975,10 +11983,10 @@
 		"featureless_face": {
 			"name": "Featureless Face",
 			"slot": "face",
-			"description": "Perception is free and increased by 100%. Also adds +5% Armour Absorption and +40% Poison Resistance.",
+			"description": "Perception is free and increased by 100%. Also adds +20 to base Wounds and +40% Poison Resistance.",
 			"effects": {
 				"perception": 100,
-				"armour": 5,
+				"wounds": 20,
 				"poison": 40
 			}
 		},
@@ -12001,21 +12009,21 @@
 		"crown_of_bones": {
 			"name": "Crown of Bones",
 			"slot": "head",
-			"description": "Prevents the use of Helmets.<br>Morale +5<br>Stun Resistance +50%<br>Armour Absorption +5%",
+			"description": "Prevents the use of Helmets.<br>Morale +5<br>Stun Resistance +50%<br>Armour Absorption +10%",
 			"effects": {
 				"stun": 50,
 				"morale": 5,
-				"armour": 5
+				"armour": 10
 			}
 		},
 		"claw_foot": {
 			"name": "Claw Foot",
 			"slot": "foot",
-			"description": "Movement range +2 meters<br>Ambush and Charge range +2 meters<br>Chance to pass Climb, Leap, Jump Down tests +10%",
+			"description": "Movement range +1 meters<br>Ambush and Charge range +3 meters<br>Chance to pass Climb, Leap, Jump Down tests +10%",
 			"effects": {
-				"movement": 2,
-				"charge": 2,
-				"ambush": 2,
+				"movement": 1,
+				"charge": 3,
+				"ambush": 3,
 				"climb": 10,
 				"jump": 10,
 				"leap": 10
@@ -12584,7 +12592,7 @@
 							"min": 50,
 							"max": 58
 						},
-						"melee_armour_bypass": 9,
+						"melee_armour_bypass": 12,
 						"climb": 30
 					},
 					"masterwork": {
@@ -12592,7 +12600,7 @@
 							"min": 62,
 							"max": 70
 						},
-						"melee_armour_bypass": 12,
+						"melee_armour_bypass": 18,
 						"climb": 40
 					}
 				}
@@ -13255,24 +13263,24 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 26,
-							"max": 28
+							"min": 27,
+							"max": 29
 						},
 						"ranged_armour_bypass": 12,
 						"range": 20
 					},
 					"good": {
 						"damage": {
-							"min": 34,
-							"max": 36
+							"min": 35,
+							"max": 37
 						},
 						"ranged_armour_bypass": 15,
 						"range": 25
 					},
 					"masterwork": {
 						"damage": {
-							"min": 42,
-							"max": 44
+							"min": 43,
+							"max": 45
 						},
 						"ranged_armour_bypass": 18,
 						"range": 30
@@ -13356,24 +13364,24 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 27,
-							"max": 37
+							"min": 26,
+							"max": 36
 						},
 						"critical_hit_chance": 3,
 						"range": 15
 					},
 					"good": {
 						"damage": {
-							"min": 35,
-							"max": 45
+							"min": 34,
+							"max": 44
 						},
 						"critical_hit_chance": 5,
 						"range": 20
 					},
 					"masterwork": {
 						"damage": {
-							"min": 43,
-							"max": 53
+							"min": 42,
+							"max": 52
 						},
 						"critical_hit_chance": 7,
 						"range": 25
