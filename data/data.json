@@ -5148,8 +5148,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Melee Resistance by 5% for 2 turns. Can only be used while not engaged. Not Stackable.",
-					"mastery": "Melee Resistance increases to 10% for 3 turns. Not Stackable."
+					"basic": "Increases Melee Resistance by 10% for 2 turns. Can only be used while not engaged. Not Stackable.",
+					"mastery": "Melee Resistance increases to 15% for 3 turns. Not Stackable."
 				},
 				"info": {
 					"cost": {
@@ -6201,11 +6201,11 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Movement range by 1 meters for 3 turns."
+					"basic": "Increases Movement range by 2 meters for 3 turns."
 				},
 				"info": {
 					"cost": {
-						"strategy": 2
+						"strategy": 3
 					},
 					"range": "15m",
 					"target": "Single ally",
@@ -6808,7 +6808,8 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "180 degree arc",
@@ -7870,11 +7871,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Movement range with 1 meter for 2 turns after being Ambushed. Stackable.",
-					"mastery": "Movement range increases to 2 meters for 3 turns instead. Easy to Master."
+					"basic": "Increases Movement range with 2 meters for 2 turns after being Ambushed. Stackable.",
+					"mastery": "Movement range increases to 4 meters for 3 turns instead."
 				},
 				"icon": "intelligence_knowledge_ambush"
 			},
@@ -8953,7 +8954,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After a successful Leap or Jump Down, Movement range increases by 3 meters for 2 turns. Not Stackable."
+					"basic": "After a successful Leap or Jump Down, or the use of the Quick Leap or Swift Jump Master skill, Movement range increases by 4 meters for 3 turns. Not Stackable."
 				},
 				"icon": "skaven_fleet_footed"
 			},
@@ -10058,8 +10059,8 @@
 			"type": "human_mercenaries",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 6,
-				"mastery": 12
+				"basic": 9,
+				"mastery": 15
 			},
 			"cost": {
 				"basic": 2,
@@ -10075,9 +10076,9 @@
 				},
 				"range": "15m",
 				"duration": "2 turns",
-				"casting_chance": "-20%",
+				"casting_chance": "-25%",
 				"target": "Enemies within a 5 meter radius",
-				"divine_wrath": "+10%"
+				"divine_wrath": "+15%"
 			},
 			"icon": "mercenaries_armour_of_lead"
 		},
@@ -10114,12 +10115,12 @@
 			"type": "human_mercenaries",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 9,
-				"mastery": 15
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
-				"mastery": 4
+				"mastery": 3
 			},
 			"description": {
 				"basic": "Deals 16-21 damage. Bypasses Armour.",
@@ -10131,9 +10132,9 @@
 				},
 				"range": "30m",
 				"duration": "0 turn",
-				"casting_chance": "-25%",
+				"casting_chance": "-20%",
 				"target": "Single enemy",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+10%"
 			},
 			"icon": "mercenaries_lightning_strike"
 		},
@@ -10290,8 +10291,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Increases Dodge and Parry bypass, and the chance to pass Climb, Leap, and Jump Down tests by 15% for 2 turns.",
-				"mastery": "Dodge and Parry bypass, and the chance to pass Climb, Leap, and Jump Down tests increases by 20% for 3 turns instead.<br>Casting chance and Divine Wrath +5%."
+				"basic": "Increases Dodge and Parry bypass, and the chance to pass Climb, Leap, and Jump Down tests by 10% for 2 turns.",
+				"mastery": "Dodge and Parry bypass, and the chance to pass Climb, Leap, and Jump Down tests increases by 15% for 3 turns instead.<br>Casting chance and Divine Wrath +5%."
 			},
 			"info": {
 				"cost": {
@@ -10431,7 +10432,7 @@
 			},
 			"description": {
 				"basic": "Melee attacks bypass 10% Armour Absorption and melee Damage increases by 10% for 2 turns.",
-				"mastery": "Armour bypass and damage increase to 20%, duration to 3 turns and range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"mastery": "Armour bypass and damage increase to 15%, duration to 3 turns and range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10534,8 +10535,8 @@
 			"type": "cult_of_the_possessed",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 6,
-				"mastery": 12
+				"basic": 9,
+				"mastery": 15
 			},
 			"cost": {
 				"basic": 2,
@@ -10547,13 +10548,13 @@
 			},
 			"info": {
 				"cost": {
-					"offense": 3
+					"offense": 4
 				},
 				"range": "15m",
 				"duration": "2 turns",
-				"casting_chance": "-20%",
+				"casting_chance": "-25%",
 				"target": "Single enemy",
-				"divine_wrath": "+10%"
+				"divine_wrath": "+15%"
 			},
 			"icon": "possessed_lure_of_chaos"
 		},
@@ -10616,8 +10617,8 @@
 			"name": "Vision of Torment",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 9,
-				"mastery": 15
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
@@ -10629,13 +10630,13 @@
 			},
 			"info": {
 				"cost": {
-					"offense": 4
+					"offense": 3
 				},
 				"range": "0m",
 				"duration": "2 turns",
-				"casting_chance": "-25%",
+				"casting_chance": "-20%",
 				"target": "Allies and enemies within a 5 meter radius around the caster",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+10%"
 			},
 			"icon": "possessed_vision_of_torment"
 		},
@@ -11381,7 +11382,7 @@
 			},
 			"description": {
 				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10% for 2 turns. Not Stackable.",
-				"mastery": "Armour Absorbtion boost increases to 15%, range to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
+				"mastery": "Armour Absorbtion boost increases to 15% and the target causes Terror instead of Fear. Range increases to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11492,8 +11493,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Increases Armour Absorption by 5% and Dodge and Parry chance by 10% of allies around the caster for 2 turns. Not Stackable.",
-				"mastery": "Dodge and Parry boost to 20% and duration to 3 turns. Casting chance and Curse chance +5%"
+				"basic": "Increases Armour Absorption by 5% and Dodge and Parry chance by 15% of allies around the caster for 2 turns. Not Stackable.",
+				"mastery": "Armour Absorption boost to 10%, Dodge and Parry to 20% and duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11577,14 +11578,14 @@
 			},
 			"description": {
 				"basic": "Increases Movement by 2m and Armour Absorption by 15% for Zombies. Increases Initiative by 10 and Dodge chance by 10% for Vampires, Vampire Thralls, Ghouls and Crypt Horrors. Not Stackable. Does not affect living targets.",
-				"mastery": "Movement increases to 4m, Armour Absorption to 30%, Initiative to 20, Dodge chance to 20%, range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Movement increases to 4m, Armour Absorption to 30%, Initiative to 20, Dodge chance to 20%, range to 30m, duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
 					"offense": 2
 				},
 				"range": "15m",
-				"duration": "3 turns",
+				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single ally",
 				"divine_wrath": "+5%"
@@ -11596,16 +11597,16 @@
 			"type": "undead",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 6,
-				"mastery": 12
+				"basic": 3,
+				"mastery": 9
 			},
 			"cost": {
 				"basic": 2,
 				"mastery": 2
 			},
 			"description": {
-				"basic": "Increases Critical and Poison Resistance by 15% and Armour Absorption by 5% for 2 turns. Not Stackable.",
-				"mastery": "Critical and Poison Resistance increases to 20% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%. Easy to Master."
+				"basic": "Increases Critical and Poison Resistance by 10% and Armour Absorption by 5% for 2 turns. Not Stackable.",
+				"mastery": "Critical and Poison Resistance increases to 15% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%. Easy to Master."
 			},
 			"info": {
 				"cost": {
@@ -11613,9 +11614,9 @@
 				},
 				"range": "15m",
 				"duration": "2 turn",
-				"casting_chance": "-20%",
+				"casting_chance": "-15%",
 				"target": "Single ally",
-				"divine_wrath": "+10%"
+				"divine_wrath": "+5%"
 			},
 			"icon": "undead_corpse_flesh"
 		},
@@ -11680,8 +11681,8 @@
 			"type": "undead",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
@@ -11697,9 +11698,9 @@
 				},
 				"range": "30m",
 				"duration": "1 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-20%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"divine_wrath": "+10%"
 			},
 			"icon": "undead_warp_overcharge"
 		},
