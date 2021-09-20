@@ -10120,7 +10120,7 @@
 			},
 			"cost": {
 				"basic": 2,
-				"mastery": 3
+				"mastery": 4
 			},
 			"description": {
 				"basic": "Deals 16-21 damage. Bypasses Armour.",
