@@ -45,7 +45,7 @@
 					"max": 1
 				},
 				"accuracy": {
-					"min": 4,
+					"min": 6,
 					"max": 13
 				}
 			},
@@ -81,6 +81,7 @@
 					"sisters_of_sigmar"
 				],
 				"equipment": [
+					"empty_hand",				
 					"dagger",
 					"flail",
 					"hammer",
@@ -5956,7 +5957,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that reduces Armour Absorption by 10% for 2 turns.",
+					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that reduces Armour Absorption by 10% for 2 turns. Not Stackable.",
 					"mastery": "Armour Absorption debuff increases to 20% for 3 turns."
 				},
 				"info": {
@@ -10934,7 +10935,7 @@
 			},
 			"description": {
 				"basic": "Reduces the cost of Charge by 1 Offense Point and, when another ally is engaged with the same enemy, increases melee Hit chance and Critical hit chance by 5% for 2 turns. Not Stackable.",
-				"mastery": "Melee hit change and Critical Hit chance increased by 10% and duration to 3 turns. Casting chance and Wrath chance +5%"
+				"mastery": "Melee hit chance and Critical Hit chance increased by 10% and duration to 3 turns. Casting chance and Wrath chance +5%"
 			},
 			"info": {
 				"cost": {
