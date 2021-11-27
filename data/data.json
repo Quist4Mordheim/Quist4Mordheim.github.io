@@ -6426,7 +6426,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Inflicts a random debuff from the following: -10% Melee and Poison Resistance, OR -10% Magic and Stun Resistance, OR -10% Ranged and Critical Resistance. Effects last for 2 turns. Not stackable.",
+					"basic": "Inflicts a random debuff from the following: -10% Melee and Poison Resistance, OR -10% Magic and Stun Resistance, OR -10% Ranged and Critical Resistance. Effects last for 2 turns. Stackable.",
 					"mastery": "Debuff increases to -15% and duration to 3 turns."
 				},
 				"info": {
@@ -8807,7 +8807,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After a melee attack misses, Dodge chance increases by 10% for 3 turns. Stackable."
+					"basic": "After a melee attack misses, Dodge chance increases by 20% for 3 turns. Stackable."
 				},
 				"icon": "sisters_military_training"
 			},
@@ -8955,7 +8955,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After a successful Leap or Jump Down, or the use of the Quick Leap or Swift Jump Master skill, Movement range increases by 4 meters for 3 turns. Not Stackable."
+					"basic": "After a successful Leap or Jump Down, Movement range increases by 4 meters for 3 turns. Not Stackable."
 				},
 				"icon": "skaven_fleet_footed"
 			},
@@ -9273,15 +9273,17 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Gain +10% chance to hit and attacks bypass 10% of the target's Dodge and Parry chance when equipped with a dagger.",
-					"mastery": "Chance to hit, Dodge and Parry bypass increase by 30%"
+					"basic": "Gain +10% chance to hit and critically hit, and attacks bypass 10% of the target's Dodge chance when equipped with a dagger.",
+					"mastery": "Chance to hit, critically hit and Dodge bypass increase by 20%"
 				},
 			    "effects": {
 					"basic": {
-					    "melee_hit_chance": 10
+					    "melee_hit_chance": 10,
+					    "critical_hit_chance": 10
 					},
 					"mastery": {
-		                "melee_hit_chance": 30
+		                "melee_hit_chance": 20,
+					    "critical_hit_chance": 20
 					},
 					"restrictions": [
 					    "dagger"
@@ -9624,7 +9626,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When missing a melee attack, increases melee damage by 20% for 3 turns. Stackable."
+					"basic": "When missing a melee attack, increases melee damage by 30% for 3 turns. Stackable."
 				},
                 "icon": "witch_hunters_purge_the_heretic"
 			},
@@ -10794,8 +10796,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces Armour Absorption and Dodge and Parry chances by 10% for 2 turns. Cannot reduce Armour Absorption below 0. Not Stackable.",
-				"mastery": "Armour Absorption penalty and Dodge and Parry chances penalties increase to 15% for 3 turns, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Reduces Armour Absorption and Dodge and Parry chances by 15% for 2 turns. Cannot reduce Armour Absorption below 0. Not Stackable.",
+				"mastery": "Armour Absorption penalty and Dodge and Parry chances penalties increase to 20% for 3 turns, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
