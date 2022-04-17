@@ -2267,7 +2267,6 @@
 					"mace",
 					"spear",
 					"sword",
-					"weeping_blades",
 					"warplock_pistols",
 					"shuriken",
 					"cloth",
@@ -2355,6 +2354,7 @@
 					"mace",
 					"spear",
 					"sword",
+					"weeping_blades",
 					"warplock_pistols",
 					"shuriken",
 					"cloth",
@@ -3935,7 +3935,7 @@
 				"fear"
 			],
 			"spells": [
-				"corpse_flesh"
+				"warp_overcharge"
 			],	
 			"perks": [
 				"unwavering"
@@ -4322,7 +4322,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Charge in an unobstructed line to engage a target and perform a melee attack that has a -20% chance to hit, deals +100% damage, and bypasses 10% of the target's Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
+					"basic": "Charge in an unobstructed line to engage a target and perform a melee attack that has a -30% chance to hit, deals +100% damage, and bypasses 10% of the target's Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
 					"mastery": "Damage increases to +150% and Parry chance bypass to 20%."
 				},
 				"info": {
@@ -4376,8 +4376,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that reduces Ranged Resistance by 20% for 2 turns. Not Stackable.",
-					"mastery": "Ranged Resistance debuff increases to 30% for 3 turns."
+					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that reduces Dodge and Parry chance and Ranged Resistance by 20% for 2 turns. Not Stackable.",
+					"mastery": "Dodge and Parry chance and Ranged Resistance debuff increases to 30% for 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -4403,8 +4403,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals +45% damage. Target has a -25% chance to Parry this attack.",
-					"mastery": "Parry chance penalty increases to 50% and damage increases to 90%."
+					"basic": "A melee attack that deals +30% damage. Target has a -30% chance to Parry this attack.",
+					"mastery": "Parry chance penalty increases to 60% and damage increases to 60%."
 				},
 				"info": {
 					"cost": {
@@ -4960,8 +4960,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge and Parry chance by 15% for 2 turns. Can only be used while not engaged. Not Stackable.",
-					"mastery": "Dodge and Parry chance increases to 20%, duration to 3 turns and range to 20 meters. Not Stackable."
+					"basic": "Increases Dodge and Parry chance by 20% for 2 turns. Can only be used while not engaged. Not Stackable.",
+					"mastery": "Dodge and Parry chance increases to 30%, duration to 3 turns and range to 20 meters. Not Stackable."
 				},
 				"info": {
 					"cost": {
@@ -5096,8 +5096,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases melee Damage by 10% for 2 turns.",
-					"mastery": "Melee Damage increases to 15% for 3 turns."
+					"basic": "Increases melee Damage by 15% for 2 turns.",
+					"mastery": "Melee Damage increases to 20% for 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -5249,11 +5249,11 @@
 					"mastery": 12
 				},
 				"cost": {
-					"basic": 0,
+					"basic": 2,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost. Trivial to Train.",
+					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost.",
 					"mastery": "The Casting penalty is reduced to 5%."
 				},
 				"info": {
@@ -5275,11 +5275,11 @@
 					"mastery": 12
 				},
 				"cost": {
-					"basic": 0,
+					"basic": 2,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost. Trivial to Train.",
+					"basic": "Reduces the cost of the next Spell cast by 1 Offense Point, but increases the Casting penalty by 15%. The next action taken must be a spell of the effect is lost.",
 					"mastery": "The Casting penalty is reduced to 5%."
 				},
 				"info": {
@@ -5305,12 +5305,12 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases user's Dodge and Parry chance by 10% for 2 turns. Can only be used while not engaged.",
-					"mastery": "Dodge and Parry chance increases to 20% for 3 turns."
+					"basic": "Increases user's Dodge and Parry chance by 20% for 2 turns. Can only be used while not engaged.",
+					"mastery": "Dodge and Parry chance increases to 40% for 3 turns."
 				},
 				"info": {
 					"cost": {
-						"strategy": 1
+						"strategy": 2
 					},
 					"range": "15m",
 					"target": "Single enemy",
@@ -5510,11 +5510,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Take a stance that ends the current turn. The stance increases Critical hit Resistance by 15%.",
-					"mastery": "Critical hit Resistance increases to 45%. Easy to Master."
+					"basic": "Take a stance that ends the current turn. The stance increases Critical hit Resistance, Stun Resistance and Poison Resistance by 20%.",
+					"mastery": "Critical hit, Stun and Poison Resistance increase to 40%. "
 				},
 				"info": {
 					"cost": {
@@ -5565,8 +5565,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If hit, the target's Casting chance will be reduced by 20%, the chance to trigger a Tzeentch Curse/Divine Wrath increases by 20% and Vocal Skills are blocked for 2 turns. Not Stackable.",
-					"mastery": "Casting penalty and Tzeentch Curse/Divine Wrath chance increase to 40% and Vocal Skills are blocked for 3 turns instead."
+					"basic": "A melee attack that deals regular damage. If hit, the target's Casting chance will be reduced by 15%, the chance to trigger a Tzeentch Curse/Divine Wrath increases by 15% and Vocal Skills are blocked for 2 turns. Not Stackable.",
+					"mastery": "Casting penalty and Tzeentch Curse/Divine Wrath chance increase to 30% and Vocal Skills are blocked for 3 turns instead."
 				},
 				"info": {
 					"cost": {
@@ -5617,8 +5617,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If hit, the target's maximum Strategy Points are reduced by 1 for 2 turns. Not Stackable.",
-					"mastery": "Maximum Strategy Points reduced by 2, and duration increased to 3 turns."
+					"basic": "A melee attack that deals regular damage. If hit, the target's maximum Strategy Points are reduced by 2 for 2 turns. Not Stackable.",
+					"mastery": "Maximum Strategy Points reduced by 3, and duration increased to 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -6061,8 +6061,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces the cost of Disengage by 1 Strategy Point. Can only be used while not engaged. Not Stackable",
-					"mastery": "Cost of Disengage and Switch Weapons is reduced by 1OP and 1SP instead. Range increased to 30 meters."
+					"basic": "Reduces the cost of Ambush, Overwatch, Prowl, Onslaught, Entrenched and Disengage by 1 Offence Point. Reduces the cost of Safe Stance and Deft Stance by 1 Strategy Point. Can only be used while not engaged. Not Stackable. Lasts for 2 turns.",
+					"mastery": "Cost of Ambush, Overwatch, Prowl, Onslaught, Entrenched, Disengage, Safe Stance and Deft Stance is reduced by 1OP and 1SP instead. Range increased to 30 meters. Duration increased to 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -6128,8 +6128,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge chance by 10% for 2 turns.",
-					"mastery": "Dodge chance increases to 20% for 3 turns."
+					"basic": "Increases Dodge chance by 15% for 2 turns.",
+					"mastery": "Dodge chance increases to 30% for 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -6227,8 +6227,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge and Parry bypass and melee damage by 10% for 2 turns. Removes 30 wounds. Not Stackable.",
-					"mastery": "Melee damage, Dodge and Parry bypass increases to 20%, and duration to 3 turns."
+					"basic": "Increases Dodge and Parry bypass and melee and ranged damage by 15% for 2 turns. Removes 30 wounds. Not Stackable.",
+					"mastery": "Melee and ranged damage, Dodge and Parry bypass increases to 20%, and duration to 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -6332,8 +6332,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If it hits, increases melee Damage by 20% and melee Critical hit chance by 5% for 2 turns. Not Stackable.",
-					"mastery": "Damage increases to 25% and critical chance by 10% for 3 turns. Easy to Master."
+					"basic": "A melee attack that deals regular damage. If it hits, increases melee Damage by 15% and melee Critical hit chance by 5% for 2 turns. Not Stackable.",
+					"mastery": "Damage increases to 20% and critical chance by 10% for 3 turns. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -6359,7 +6359,7 @@
 				},
 				"description": {
 					"basic": "A melee attack that deals normal damage. If hit, the target gains a debuff that reduces Maximum Offense Points by 1 and chance to Climb, Leap, and Jump Down by 20% for 2 turns. Not Stackable.",
-					"mastery": "Climb, Leap, and Jump Down penalties increase to 30%, maximum OP penalty to 2 and duration to 3 turns instead. Easy to Master."
+					"mastery": "Climb, Leap, and Jump Down penalties increase to 30% and duration to 3 turns instead. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -6400,7 +6400,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Throw a globe that leaves a poisonous cloud at the selected area. Starting a turn inside the area deals 20-25 damage. Leaving the area inflicts a poison debuff that deals an additional 15-20 poison damage per turn for 3 turns. Not Stackable."
+					"basic": "Throw a globe that leaves a poisonous cloud at the selected area. Starting a turn inside the area deals 26-39 damage. Leaving the area inflicts a poison debuff that deals an additional 26-39 poison damage per turn for 3 turns. Not Stackable."
 				},
 				"info": {
 					"cost": {
@@ -6507,8 +6507,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Restores up to 75 wounds and inflicts a random debuff for 3 turns from the following list: -1 OP, -1 movement range, - 15% athletics tests, or prevent Switch Weapons. One use only.",
-					"mastery": "Wounds restored increases to 150"
+					"basic": "Restores up to 100 wounds and inflicts a random debuff for 3 turns from the following list: -1 OP, -1 movement range, - 15% athletics tests, or prevent Switch Weapons. One use only.",
+					"mastery": "Wounds restored increases to 200"
 				},
 				"info": {
 					"cost": {
@@ -6674,7 +6674,7 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2
 					},
 					"range": "15m",
 					"target": "Everyone withim 3m",
@@ -6777,8 +6777,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases damage by 10% for 2 turns. Not Stackable.",
-					"mastery": "Damage increases to 15% for 3 turns."
+					"basic": "Increases damage by 15% for 2 turns. Not Stackable.",
+					"mastery": "Damage increases to 20% for 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -7229,8 +7229,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Increases the Hit chance of Charge attacks by 10%.",
-					"mastery": "Chance to hit increases to 30%. Easy to Master."
+					"basic": "Increases the Hit chance of Charge attacks by 20%.",
+					"mastery": "Chance to hit increases to 40%. Easy to Master."
 				},
 				"icon": "strength_strider"
 			},
@@ -7263,7 +7263,7 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Increases the Critical hit chance of Ambush attacks by 10%.",
+					"basic": "Increases the Critical hit chance of Ambush attacks by 15%.",
 					"mastery": "Critical hit chance increases to 30%. Easy to Master."
 				},
 				"icon": "strength_surprise"
@@ -7355,17 +7355,17 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Adds +5 to Physical attribute Maximums. Reduces the loss of Strategy and Offense Points when recovering from Stun.",
-					"mastery": "Adds +5 Physical attribute points."
+					"basic": "Adds +5 to Martial attribute Maximums. Reduces the loss of Strategy and Offense Points when recovering from Stun.",
+					"mastery": "Adds +5 Martial attribute points."
 				},
 				"effects": {
 					"basic": {
-						"strength": 5,
-						"toughness": 5,
-						"agility": 5
+						"weapon_skill": 5,
+						"ballistic_skill": 5,
+						"accuracy": 5
 					},
 					"mastery": {
-						"physical": 5
+						"martial": 5
 					}
 				},
 				"icon": "toughness_quick_recovery"
@@ -7434,16 +7434,16 @@
 				"name": "Ambuscade",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 3,
-					"mastery": 9
+					"basic": 6,
+					"mastery": 12
 				},
 				"cost": {
 					"basic": 2,
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Increases the chance to hit during an Ambush attack by 10%.",
-					"mastery": "Chance to hit increases to 30%. Easy to Master."
+					"basic": "Increases the chance to hit during an Ambush attack by 20%.",
+					"mastery": "Chance to hit increases to 40%. Easy to Master."
 				},
 				"icon": "strength_ambuscade"
 			},
@@ -7468,25 +7468,25 @@
 				"name": "Acrobatic",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 3,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Adds +5 to Martial attribute Maximums. When Fleeing, increases Armour Absorption by 60%.",
-					"mastery": "Adds +5 Martial attribute points."					
+					"basic": "Adds +5 to Physical attribute Maximums. When Fleeing, increases Critical Resistance by 60%.",
+					"mastery": "Adds +5 Physical attribute points."					
 				},
 				"effects": {
 					"basic": {
-						"weapon_skill": 5,
-						"ballistic_skill": 5,
-						"accuracy": 5
+						"strength": 5,
+						"toughness": 5,
+						"agility": 5
 					},
 					"mastery": {
-						"martial": 5
+						"physical": 5
 					}
 				},				
 				"icon": "agility_acrobatic"
@@ -7521,14 +7521,14 @@
 				},
 				"description": {
 					"basic": "Increases Dodge chance by 15%.",
-					"mastery": "Dodge chance increases to 45%."
+					"mastery": "Dodge chance increases to 40%."
 				},
 				"effects": {
 					"basic": {
 						"dodge": 15
 					},
 					"mastery": {
-						"dodge": 45
+						"dodge": 40
 					}
 				},
 				"icon": "agility_avoid"
@@ -7576,11 +7576,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "Increases chance to pass All Alone tests by 20%.",
-					"mastery": "Chance to pass All Alone tests increases to 60%."
+					"mastery": "Chance to pass All Alone tests increases to 60%. Easy to Master."
 				},
 				"effects": {
 					"basic": {
@@ -7689,11 +7689,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "Increases the chance to pass Fear and Terror tests by 20%.",
-					"mastery": "Chance to pass increases to 60%."
+					"mastery": "Chance to pass increases to 60%. Easy to Master."
 				},
 				"effects": {
 					"basic": {
@@ -8123,12 +8123,12 @@
 					"mastery": 9
 				},
 				"cost": {
-					"basic": 0,
+					"basic": 2,
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Increases Perception chance by 45%. Trivial to Train.",
-					"mastery": "Perception chance increases to 90%. Perception is free. Easy to Master."
+					"basic": "Increases Perception chance by 90%.",
+					"mastery": "Perception is free. Easy to Master."
 				},
 				"icon": "alertness_sixth_sense"
 			},
@@ -8325,8 +8325,8 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Increases chance to hit for Counter-Attacks by 10%.",
-					"mastery": "Chance to hit increases to 30%. Easy to Master."
+					"basic": "Increases chance to hit for Counter-Attacks by 20%.",
+					"mastery": "Chance to hit increases to 40%. Easy to Master."
 				},
 				"icon": "weapon_retaliation"
 			},
@@ -8477,8 +8477,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After dealing ranged damage, ranged Critical hit chance increases by 1% for 2 turns. Stackable.",
-					"mastery": "Critical hit chance increases to 2% for 3 turns."
+					"basic": "After dealing ranged damage, ranged Critical hit chance increases by 2% for 2 turns. Stackable.",
+					"mastery": "Critical hit chance increases to 3% for 3 turns."
 				},
 				"icon": "ballistic_sharpshooter"
 			},
@@ -8722,14 +8722,14 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 10%.",
+					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 15%.",
 					"mastery": "Chance to pass increases to 30%."
 				},
 				"effects": {
 					"basic": {
-						"all_alone": 10,
-						"fear": 10,
-						"terror": 10
+						"all_alone": 15,
+						"fear": 15,
+						"terror": 15
 					},
 					"mastery": {
 						"all_alone": 30,
@@ -8926,8 +8926,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When another ally is engaged with the same enemy, increases melee Hit chance by 5% and melee Critical hit chance by 5%.",
-					"mastery": "Hit chance increases to 10% and Critical hit chance to 10%"
+					"basic": "When another ally is engaged with the same enemy, increases melee Hit chance by 10% and melee Critical hit chance by 10%.",
+					"mastery": "Hit chance increases to 15% and Critical hit chance to 15%"
 				},
 				"icon": "skaven_swarm"
 			},
@@ -8983,12 +8983,12 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases resistance to Warp effect when gathering Wyrdstone by 50%. Also increases Poison Resistance by 25%."
+					"basic": "Increases resistance to Warp effect when gathering Wyrdstone by 60%. Also increases Poison Resistance by 60%."
 				},
 				"effects": {
 					"basic": {
-						"poison": 25,
-						"wyrdstone": 50
+						"poison": 60,
+						"wyrdstone": 60
 					}
 				},
 				"icon": "skaven_warp_immunity"
@@ -9127,7 +9127,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After dealing damage with an Ambush or Charge attack, melee Damage increases by 15% for 3 turns."
+					"basic": "After dealing damage with an Ambush or Charge attack, melee Damage increases by 20% for 3 turns."
 				},
 				"icon": "possessed_norse_charge"
 			},
@@ -9256,8 +9256,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Globe skills used by the warrior will apply an additional debuff that reduces Poison Resistance by 10% for 2 turns. Not Stackable.",
-					"mastery": "Poison Resistance debuff increases to 20% and duration to 3 turns."
+					"basic": "Globe skills used by the warrior will apply an additional debuff that reduces Poison Resistance by 26% for 2 turns. Not Stackable.",
+					"mastery": "Poison Resistance debuff increases to 39% and duration to 3 turns."
 				},
 				"icon": "globadier_potent_globes"
 			},
@@ -9299,19 +9299,21 @@
 					"mastery": 9
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Wyrdstone Resistance by 40%. Trivial to Train.",
-					"mastery": "Wyrdstone immunity. Does not disable Wyrdstone Rush. Easy to Master."
+					"basic": "Increases Magical and Wyrdstone Resistance by 20%.",
+					"mastery": "Magical and Wyrdstone Resistance increases to 40%."
 				},
 				"effects": {
 					"basic": {
-					    "wyrdstone": 40
+					    "magic": 20,
+					    "wyrdstone": 20
 					},
 					"mastery": {
-					    "wyrdstone": 666
+					    "magic": 40,
+					    "wyrdstone": 40
 					}
 				},
 				"icon": "globadier_warp_resistance"
@@ -9324,12 +9326,12 @@
 					"mastery": 9
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "After gathering a Wyrdstone, Initiative increases by 15 for 3 turns. Not Stackable. Initiative changes take effect on the next round. Trivial to Train.",
-					"mastery": "Initative bonus increases to 45. Easy to Master."
+					"basic": "After gathering a Wyrdstone, Melee Damage increases by 15%, and Initiative increases by 10 for 3 turns. Not Stackable. Initiative changes take effect on the next round.",
+					"mastery": "Melee Damage increases by 30%, and Initative bonus increases to 30."
 				},
 				"icon": "globadier_warp_rush"
 			},
@@ -9378,8 +9380,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When another ally is engaged with the same enemy, increases Dodge and Parry bypass against the target by 20%.",
-					"mastery": "Dodge and Parry bypass increases to 60%."
+					"basic": "When another ally is engaged with the same enemy, increases Hit chance and Dodge and Parry bypass against the target by 20%.",
+					"mastery": "Hit chance and Dodge and Parry bypass increases to 60%."
 				},
 				"icon": "smuggler_tight_crew"
 			},
@@ -9436,17 +9438,25 @@
 				"name": "Walk the Topsail",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 3,
+					"mastery": 9
 				},
 				"cost": {
-					"basic": 0,
-					"mastery": 2
+					"basic": 2,
+					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the chance to pass Climb, Leap, and Jump Down tests by 20%. Trivial to Train.",
-					"mastery": "Chance to pass Climb, Leap, and Jump Down tests increased by 60%. Easy to Master."
+					"basic": "Increases Dodge chance, and the chance to pass Climb, Leap, and Jump Down tests by 15%.",
+					"mastery": "Dodge chance and chance to pass Climb, Leap, and Jump Down tests increased by 45%."
 				},
+				"effects": {
+					"basic": {
+						"dodge": 15
+					},
+					"mastery": {
+						"dodge": 45
+					}
+				},				
 				"icon": "smuggler_walk_the_topsail"
 			},
 			"boarding_prowess": {
@@ -9675,7 +9685,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When receiving damage, increases Melee damage by 10% for 3 turns. Stackable."
+					"basic": "When receiving damage, increases Melee and Ranged damage by 15% for 3 turns. Stackable."
 				},
                 "icon": "witch_hunters_vengeance"
 			},
@@ -9725,13 +9735,13 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Poison and Magic Resistance by 10%.",
+					"basic": "Increases Poison and Magic Resistance by 15%.",
 					"mastery": "Poison and Magic Resistance increases to 30%"
 				},
 				"effects": {
 					"basic": {
-					    "poison": 10,
-                        "magic": 10
+					    "poison": 15,
+                        "magic": 15
 					},
 					"mastery": {
 					    "poison": 30,
@@ -9747,7 +9757,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After gathering a Wyrdstone, decrease Spellcasting cost by 1 Offensive Point and Tzeentch's Curse chance by 20% for 1 turn. Not Stackable."
+					"basic": "After gathering a Wyrdstone, decrease Spellcasting cost by 1 Offensive Point and Tzeentch's Curse chance by 10% for 1 turn. Not Stackable."
 				},
                 "icon": "undead_warp_attunement"
 			},
@@ -9780,7 +9790,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "On melee damage, inflicts a random poison debuff from the following: -9 Initiative, OR -5% Critical Resistance, OR -9% Dodge and Parry chance. All debuffs are stackable, last 3 turns, and increase Damage received from the spell Rotten Touch by 5%."
+					"basic": "On melee damage, inflicts a random poison debuff from the following: -10 Initiative, OR -10% Critical Resistance, OR -20% Dodge and Parry chance. All debuffs are stackable, last 3 turns, and increase Damage received from the spell Rotten Touch by 10%."
 				},
                 "icon": "undead_disease_carrier"
 			},
@@ -9843,11 +9853,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
 					"basic": "When another ally is engaged with the same target, increases Armour Absorption bypass by 10%. Not Stackable",
-					"mastery": "Armour Absorption bypass increases to 20%. Easy to Master."
+					"mastery": "Armour Absorption bypass increases to 20%."
 				},
 				"icon": "undead_find_the_breach"
 			}
@@ -10126,8 +10136,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Deals 16-21 damage. Bypasses Armour.",
-				"mastery": "Damage increases to 32-42, range is reduced to 20 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Deals 15-20 damage. Bypasses Armour.",
+				"mastery": "Damage increases to 30-40, range is reduced to 20 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10182,8 +10192,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Deals 10-15 damage. Bypasses Armour.",
-				"mastery": "Damage increases to 20-30, range reduced to 20 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Deals 12-16 damage. Bypasses Armour.",
+				"mastery": "Damage increases to 24-32, range reduced to 20 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10656,7 +10666,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces Strength, Agility and Toughness by 2 and reduces movement range by 1 meter for 2 turns.",
+				"basic": "Reduces Strength, Agility and Toughness by 3 and reduces movement range by 1 meter for 2 turns.",
 				"mastery": "Stat penalty increases to 4, movement penalty to 2, duration to 3 turns and range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
@@ -10684,8 +10694,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants Bless with filth for 2 turns. Not stackable.<br>Melee and Ranged attacks made under Bless with Filth will poison the target unless it passes a Poison Resistance test. The poison deals 5-10 damage, lasts 2 turns and is Stackable.",
-				"mastery": "Poison damage increases to 10-15 and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Grants Bless with filth for 2 turns. Not stackable.<br>Melee and Ranged attacks made under Bless with Filth will poison the target unless it passes a Poison Resistance test. The poison deals 10-13 damage, lasts 2 turns and is Stackable.",
+				"mastery": "Poison damage increases to 13-26 and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10740,15 +10750,15 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "A dense mist rises in the selected area. Anyone who enters the area gains a debuff that increases Ranged Resistance by 25%, but reduces Melee Resistance by 15% and Perception tests by 50%. Skaven are immune to the penalties. Not Stackable.",
-				"mastery": "Ranged Resistance increaes to 50%, Melee Resistance penalty to 30%, Perception penalty to 100%, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "A dense mist rises in the selected area that lasts for 2 turns. Anyone who enters the area gains a debuff that increases Ranged Resistance by 25%, but reduces Melee Resistance by 15% and Ranged to Hit chance by 25%. Skaven are immune to the penalties. Not Stackable.",
+				"mastery": "Ranged Resistance increases to 50%, Melee Resistance penalty to 30%, Ranged to Hit penalty to 50%, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
 					"offense": 4
 				},
 				"range": "15m",
-				"duration": "1 turn",
+				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5 meter radius.",
 				"divine_wrath": "+15%"
@@ -10908,8 +10918,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants immunity to fear and provokes Fear on engaged enemies, reducing melee Hit chance by 10% for  2 turns. Not Stackable.",
-				"mastery": "Fear penalty increases to 30% hit chance and duration to 3 turns. Casting chance and Wrath chance +5%"
+				"basic": "Grants immunity to fear and provokes Fear on engaged enemies, reducing melee hit chance and melee resistance by 10% for  2 turns. Not Stackable.",
+				"mastery": "Fear penalty increases to 20% hit chance and melee resistance, and duration to 3 turns. Casting chance and Wrath chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11384,8 +11394,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10% for 2 turns. Not Stackable.",
-				"mastery": "Armour Absorbtion boost increases to 15% and the target causes Terror instead of Fear. Range increases to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
+				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 5% for 2 turns. Not Stackable.",
+				"mastery": "Armour Absorbtion boost increases to 10% and the target causes - and is immune to - Terror instead of Fear. Range increases to 30m and duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11412,8 +11422,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Creates a zone effect at the selected area. Enemies entering or starting a turn inside the area receive a debuff that reduces current and maximum Offense Points by 1 and Melee Hit chance by 5% for 1 turn. Not Stackable.",
-				"mastery": "Hit chance reduction increases to 15%. Zone duration increases to 2 turns, range to 30m. Casting chance and Curse chance +5%"
+				"basic": "Creates a zone effect at the selected area. Enemies entering or starting a turn inside the area receive a debuff that reduces current and maximum Offense Points by 1 and Melee Hit chance by 5% for 2 turns. Not Stackable.",
+				"mastery": "Hit chance reduction increases to 15%. Range increases to 30m. Debuff duration increases to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11608,12 +11618,12 @@
 				"mastery": 2
 			},
 			"description": {
-				"basic": "Increases Critical and Poison Resistance by 10% and Armour Absorption by 5% for 2 turns. Not Stackable.",
-				"mastery": "Critical and Poison Resistance increases to 15% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%. Easy to Master."
+				"basic": "Increases Critical and Poison Resistance by 15% and Armour Absorption by 5% for 2 turns. Not Stackable.",
+				"mastery": "Critical and Poison Resistance increases to 20% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%. Easy to Master."
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 3
 				},
 				"range": "15m",
 				"duration": "2 turn",
@@ -11689,15 +11699,15 @@
 			},
 			"cost": {
 				"basic": 2,
-				"mastery": 4
+				"mastery": 2
 			},
 			"description": {
 				"basic": "Applies a debuff that deals 40-80 damage on the target's second turn, but has no effect on the first turn. Gathering a Wyrdstone removes the debuff. Bypasses Armour Absorption. Not Stackable.",
-				"mastery": "Damage increases to 80-160, but range is reduced to 20m. Casting chance and Curse chance +5%"
+				"mastery": "Damage increases to 80-160, but range is reduced to 20m. Casting chance and Curse chance +5%. Easy to Master."
 			},
 			"info": {
 				"cost": {
-					"offense": 3
+					"offense": 2
 				},
 				"range": "30m",
 				"duration": "1 turn",
@@ -11861,33 +11871,10 @@
 		"crusher": {
 			"name": "Crusher",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +{{ critical_hit_chance }}%<br>On hit, applies a poison debuff that reduces Initiative by {{ initiative_reduction }} for {{ initiative_reduction_duration }} turns. Stackable. -5 Initiative.",
-			"effects": {
-				"initiative": -5,
-				"normal": {
-					"critical_hit_chance": 4,
-					"initiative_reduction": 5,
-					"initiative_reduction_duration": 2
-				},
-				"good": {
-					"critical_hit_chance": 6,
-					"initiative_reduction": 10,
-					"initiative_reduction_duration": 2
-				},
-				"masterwork": {
-					"critical_hit_chance": 8,
-					"initiative_reduction": 10,
-					"initiative_reduction_duration": 3
-				}
-			}
-		},
-		"smasher": {
-			"name": "Smasher",
-			"slot": "left_arm",
 			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +{{ critical_hit_chance }}%<br>On hit, applies a poison debuff that reduces Stun Resistance by {{ stun_resist_reduction }}% for {{ stun_resist_reduction_duration }} turns. Stackable. -5 Initiative.",
 			"effects": {
 				"initiative": -5,
-			    "normal": {
+				"normal": {
 					"critical_hit_chance": 4,
 					"stun_resist_reduction": 5,
 					"stun_resist_reduction_duration": 2
@@ -11901,6 +11888,29 @@
 					"critical_hit_chance": 8,
 					"stun_resist_reduction": 10,
 					"stun_resist_reduction_duration": 3
+				}
+			}
+		},
+		"smasher": {
+			"name": "Smasher",
+			"slot": "left_arm",
+			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +{{ critical_hit_chance }}%<br>On hit, applies a poison debuff that reduces Initiative by {{ initiative_reduction }} for {{ initiative_reduction_duration }} turns. Stackable. -5 Initiative.",
+			"effects": {
+				"initiative": -5,
+			    "normal": {
+					"critical_hit_chance": 4,
+					"initiative_reduction": 5,
+					"initiative_reduction_duration": 2
+				},
+				"good": {
+					"critical_hit_chance": 6,
+					"initiative_reduction": 10,
+					"initiative_reduction_duration": 2
+				},
+				"masterwork": {
+					"critical_hit_chance": 8,
+					"initiative_reduction": 10,
+					"initiative_reduction_duration": 3
 				}
 			}
 		},
@@ -12552,7 +12562,7 @@
 							"max": 21
 						},
 						"dodge_bypass": 5,
-						"critical_hit_chance": 2,
+						"critical_hit_chance": 4,
 						"damage_ambush": 50
 					},
 					"good": {
@@ -12561,7 +12571,7 @@
 							"max": 27
 						},
 						"dodge_bypass": 10,
-						"critical_hit_chance": 3,
+						"critical_hit_chance": 6,
 						"damage_ambush": 70
 					},
 					"masterwork": {
@@ -12570,7 +12580,7 @@
 							"max": 33
 						},
 						"dodge_bypass": 15,
-						"critical_hit_chance": 4,
+						"critical_hit_chance": 8,
 						"damage_ambush": 90
 					}
 				}
@@ -12773,21 +12783,21 @@
 							"min": 36,
 							"max": 46
 						},
-						"critical_hit_chance": 5
+						"critical_hit_chance": 8
 					},
 					"good": {
 						"damage": {
 							"min": 48,
 							"max": 58
 						},
-						"critical_hit_chance": 7
+						"critical_hit_chance": 12
 					},
 					"masterwork": {
 						"damage": {
 							"min": 60,
 							"max": 70
 						},
-						"critical_hit_chance": 9
+						"critical_hit_chance": 16
 					}
 				}
 			},
@@ -13024,7 +13034,7 @@
 			"sword": {
 				"type": "melee",
 				"name": "Sword",
-				"description": "Parrying: Allows the use of Parry stance.<br>Fencing: increase Melee Resistance with +{{ melee }}%.",
+				"description": "Parrying: Allows the use of Parry stance.<br>Savage: Critical hit chance +{{ critical_hit_chance }}%.",
 				"initiative": 5,
 				"effects": {
 					"normal": {
@@ -13032,21 +13042,21 @@
 							"min": 18,
 							"max": 26
 						},
-						"melee": 4
+						"critical_hit_chance": 2
 					},
 					"good": {
 						"damage": {
 							"min": 24,
 							"max": 32
 						},
-						"melee": 6
+						"critical_hit_chance": 3
 					},
 					"masterwork": {
 						"damage": {
 							"min": 30,
 							"max": 38
 						},
-						"melee": 8
+						"critical_hit_chance": 4
 					}
 				}
 			},
@@ -13064,8 +13074,8 @@
 							"max": 41
 						},
 						"damage_poison": {
-							"min": 8,
-							"max": 12,
+							"min": 13,
+							"max": 26,
 							"duration": 2
 						}
 					},
@@ -13075,8 +13085,8 @@
 							"max": 53
 						},
 						"damage_poison": {
-							"min": 16,
-							"max": 24,
+							"min": 26,
+							"max": 39,
 							"duration": 2
 						}
 					},
@@ -13086,8 +13096,8 @@
 							"max": 65
 						},
 						"damage_poison": {
-							"min": 16,
-							"max": 24,
+							"min": 26,
+							"max": 39,
 							"duration": 3
 						}
 					}
@@ -13160,7 +13170,7 @@
 			"crossbow": {
 				"type": "ranged",
 				"name": "Crossbow",
-				"description": "Reload: 3 Strategy Points.<br>Sunder: Attacks bypass {{ ranged_armour_bypass }}% Armour Absorption.",
+				"description": "Reload: 2 Strategy Points.<br>Sunder: Attacks bypass {{ ranged_armour_bypass }}% Armour Absorption.",
 				"initiative": -10,
 				"twohanded": true,
 				"effects": {
@@ -13474,7 +13484,7 @@
 							"min": 24,
 							"max": 32
 						},
-						"warp_ammo": 2,
+						"warp_ammo": 3,
 						"warp_ammo_duration": 2,
 						"range": 15
 					},
@@ -13483,7 +13493,7 @@
 							"min": 32,
 							"max": 40
 						},
-						"warp_ammo": 4,
+						"warp_ammo": 6,
 						"warp_ammo_duration": 2,
 						"range": 20
 					},
@@ -13492,7 +13502,7 @@
 							"min": 40,
 							"max": 48
 						},
-						"warp_ammo": 4,
+						"warp_ammo": 6,
 						"warp_ammo_duration": 3,
 						"range": 25
 					}
