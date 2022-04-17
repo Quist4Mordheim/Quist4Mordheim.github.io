@@ -7521,14 +7521,14 @@
 				},
 				"description": {
 					"basic": "Increases Dodge chance by 15%.",
-					"mastery": "Dodge chance increases to 40%."
+					"mastery": "Dodge chance increases to 45%."
 				},
 				"effects": {
 					"basic": {
 						"dodge": 15
 					},
 					"mastery": {
-						"dodge": 40
+						"dodge": 45
 					}
 				},
 				"icon": "agility_avoid"
@@ -11610,8 +11610,8 @@
 			"type": "undead",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
@@ -11627,9 +11627,9 @@
 				},
 				"range": "15m",
 				"duration": "2 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-20%",
 				"target": "Single ally",
-				"divine_wrath": "+5%"
+				"divine_wrath": "+10%"
 			},
 			"icon": "undead_corpse_flesh"
 		},
@@ -11694,8 +11694,8 @@
 			"type": "undead",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 6,
-				"mastery": 12
+				"basic": 3,
+				"mastery": 9
 			},
 			"cost": {
 				"basic": 2,
@@ -11711,9 +11711,9 @@
 				},
 				"range": "30m",
 				"duration": "1 turn",
-				"casting_chance": "-20%",
+				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+10%"
+				"divine_wrath": "+5%"
 			},
 			"icon": "undead_warp_overcharge"
 		},
