@@ -7407,8 +7407,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Adds +2 to all attribute Maximums. When rolling for injury, halves the chance of getting 'multiple injuries'. Trivial to Train.",
-					"mastery": "Add +2 to Physical, Mental and Martial attribute Points. Also doubles the chance of a 'full recovery'."
+					"basic": "Adds +2 to all attribute Maximums. When rolling for injury, halves the chance of getting Multiple Injuries, doubles the chance of Full Recovery. Trivial to Train.",
+					"mastery": "Add +2 to Physical, Mental and Martial attribute Points."
 				},
 				"effects": {
 					"basic": {
@@ -9149,7 +9149,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Enemies who engage or start the turn engaged with the user must perform a Fear test. Failing the test reduces melee Hit chance by 30%. The debuff persists until passing a Fear test on turn start. Passing any Fear test will grant immunity to Fear for 1 turn."
+					"basic": "Enemies who engage or start the turn engaged with the user must perform a Fear test. Failing the test reduces Strength and Alertness by 20. The debuff persists until passing a Fear test on turn start. Passing any Fear test will grant immunity to Fear for 1 turn."
 				},
 				"icon": "restricted_fear"
 			},
@@ -9160,7 +9160,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Enemies who engage or start the turn engaged with the user must perform a Terror test. Failing the test reduces maximum Offense and Strategy Points by 3. The debuff persists until passing a Terror test on turn start. Passing any Terror test will grant immunity to Terror for 1 turn."
+					"basic": "Enemies who engage or start the turn engaged with the user must perform a Terror test. Failing the test reduces Weapon Skill and Agility by 20. The debuff persists until passing a Terror test on turn start. Passing any Terror test will grant immunity to Terror for 1 turn."
 				},
 				"icon": "restricted_terror"
 			},
