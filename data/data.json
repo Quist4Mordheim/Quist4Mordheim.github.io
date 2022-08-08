@@ -4965,7 +4965,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 3
+						"strategy": 2
 					},
 					"range": "10m",
 					"target": "Allies within a 5 meter radius",
@@ -10289,7 +10289,7 @@
 				"target": "Single enemy",
 				"divine_wrath": "+5%"
 			},
-			"icon": "sisters_hammer_of_sigmar"
+			"icon": "sisters_sinful_speech"
 		},
 		"blessing_of_athleticism": {
 			"name": "Blessing of Athleticism",
