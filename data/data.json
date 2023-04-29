@@ -5069,7 +5069,7 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Immediately grants a free Disengage. Does not affect targets who would never retureat from battle and do not have the option to disengage. Trivial to Train.",
+					"basic": "Immediately grants a free Disengage. Does not affect targets who would never retreat from battle and do not have the option to disengage. Trivial to Train.",
 					"mastery": "Range increases to 30 meters and Strategy Point cost reduced by 1. Easy to Master."
 				},
 				"info": {
@@ -8938,7 +8938,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Melee attacks have +20% to hit chance and bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point."
+					"basic": "Melee and ranged attacks have +20% to hit chance.<br>Melee attacks bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point."
 				},
 				"effects": {
 					"basic": {
