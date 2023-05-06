@@ -564,7 +564,7 @@
 		},
 		"maiden_of_sigmar": {
 			"type": "impressive",
-			"rating": 186,
+			"rating": 586,
 			"wounds": 280,
 			"skillpoints": 38,
 			"spellpoints": 18,
@@ -1249,7 +1249,7 @@
 		},
 		"chaos_spawn": {
 			"type": "impressive",
-			"rating": 194,
+			"rating": 594,
 			"wounds": 280,
 			"skillpoints": 30,
 			"spellpoints": 0,
@@ -1910,7 +1910,7 @@
 		},
 		"ogre_mercenary": {
 			"type": "impressive",
-			"rating": 184,
+			"rating": 584,
 			"skillpoints": 38,
 			"spellpoints": 0,
 			"attributepoints": {
@@ -2543,7 +2543,7 @@
 		},
 		"rat_ogre": {
 			"type": "impressive",
-			"rating": 194,
+			"rating": 594,
 			"skillpoints": 38,
 			"spellpoints": 0,
 			"attributepoints": {
@@ -3595,7 +3595,7 @@
 		},
 		"executioner": {
 			"type": "impressive",
-			"rating": 96,
+			"rating": 584,
 			"wounds": 114,
 			"skillpoints": 38,
 			"spellpoints": 0,
@@ -4226,7 +4226,7 @@
 		},
 		"crypt_horror": {
 			"type": "impressive",
-			"rating": 184,
+			"rating": 584,
 			"skillpoints": 38,
 			"spellpoints": 0,
 			"attributepoints": {
@@ -4481,18 +4481,18 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
-					"basic": "Removes up to 1 Open Wound debuff at the cost of 5 Wounds. Cannot be used while under 5 Wounds.",
-					"mastery": "Removes up to 3 Open Wounds debuffs."
+					"basic": "Removes up to 1 Open Wound and Poison debuffs each at the cost of 5 Wounds. Range 3 meters.",
+					"mastery": "Removes up to 3 Open Wounds and Poison debuffs each instead. Easy to Master."
 				},
 				"info": {
 					"cost": {
-						"strategy": 1
+						"strategy": 3
 					},
 					"range": "0m",
-					"target": "Self",
+					"target": "Self or ally",
 					"duration": "0 turn",
 					"stackable": "N/A"
 				},
@@ -5432,11 +5432,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. The stance increases Initiative by 15. This will affect the Initiative ladder for the next combat round.",
-					"mastery": "Initiative increases to 30. Easy to Master."
+					"mastery": "Initiative increases by 30 instead."
 				},
 				"info": {
 					"cost": {
@@ -5484,11 +5484,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. The stance increases Ranged Resistance by 15% and reduces Initiative by 15.",
-					"mastery": "Ranged Resistance increases to 30% and reduces Initiative by 30."
+					"mastery": "Ranged Resistance increases to 30% and reduces Initiative by 30. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -5510,11 +5510,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. The stance increases Critical hit Resistance, Stun Resistance and Poison Resistance by 20%.",
-					"mastery": "Critical hit, Stun and Poison Resistance increase to 40%. "
+					"mastery": "Critical hit, Stun and Poison Resistance increase to 40%. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -5592,7 +5592,7 @@
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. The stance increases Melee Resistance by 10%.",
-					"mastery": "Melee Resistance increases to 20%."
+					"mastery": "Melee Resistance increases by 20% instead."
 				},
 				"info": {
 					"cost": {
@@ -5827,8 +5827,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A ranged attack aimed at the torso that deals regular damage. If hit, the target's Parry and Dodge stances are broken and blocked for 1 turn.",
-					"mastery": "Also affects Web of Steel and Sidestep stances."
+					"basic": "A ranged attack aimed at the torso that deals regular damage. If hit, the target's Parry and Dodge stances are broken and blocked for 3 turns.",
+					"mastery": "Also affects Web of Steel and Sidestep stances, but duration is reduced to 2 turns."
 				},
 				"info": {
 					"cost": {
@@ -5836,7 +5836,7 @@
 					},
 					"range": "0m",
 					"target": "Single enemy",
-					"duration": "2 turns",
+					"duration": "3 turns",
 					"stackable": "N/A"
 				},
 				"icon": "ballistic_nerve_shot"
@@ -7085,7 +7085,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Reduces Melee Resistance, Parry and Dodge chances by 10% for 2 turns. Resistable Poison effect. Undead warriors are immune. Not Stackable.",
+					"basic": "Reduces Melee Resistance, Parry and Dodge chances by 10% for 2 turns. Non-resistible Poison effect. Undead warriors are immune. Not Stackable.",
 					"mastery": "Melee Resistance, Dodge and Parry penalties increase to 15% for 3 turns instead."
 				},
 				"info": {
@@ -7823,17 +7823,17 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge and Parry chance by 10%.",
-					"mastery": "Dodge and Parry chance increases to 30%."
+					"basic": "Increases Dodge and Parry chance by 15%.",
+					"mastery": "Dodge and Parry chance increases by 45% instead."
 				},
 				"effects": {
 					"basic": {
-						"dodge": 10,
-						"parry": 10
+						"dodge": 15,
+						"parry": 15
 					},
 					"mastery": {
-						"dodge": 30,
-						"parry": 30
+						"dodge": 45,
+						"parry": 45
 					}
 				},
 				"icon": "intelligence_knowledge_tactics"
@@ -7876,7 +7876,7 @@
 				},
 				"description": {
 					"basic": "Increases Movement range with 2 meters for 2 turns after being Ambushed. Stackable.",
-					"mastery": "Movement range increases to 4 meters for 3 turns instead."
+					"mastery": "Movement range increases to 4 meters for 3 turns instead. Easy to Master."
 				},
 				"icon": "intelligence_knowledge_ambush"
 			},
@@ -8926,8 +8926,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When another ally is engaged with the same enemy, increases melee Hit chance by 10% and melee Critical hit chance by 10%.",
-					"mastery": "Hit chance increases to 15% and Critical hit chance to 15%"
+					"basic": "When another ally is engaged with the same enemy, increases melee Hit chance and Critical hit chance by 5%. Not Stackable.",
+					"mastery": "Melee Hit chance and Critical hit chance increase by 10% instead."
 				},
 				"icon": "skaven_swarm"
 			},
@@ -8983,12 +8983,12 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases resistance to Warp effect when gathering Wyrdstone by 60%. Also increases Poison Resistance by 60%."
+					"basic": "Increases resistance to Warp effect when gathering Wyrdstone by 40%. Also increases Poison Resistance by 40%."
 				},
 				"effects": {
 					"basic": {
-						"poison": 60,
-						"wyrdstone": 60
+						"poison": 40,
+						"wyrdstone": 40
 					}
 				},
 				"icon": "skaven_warp_immunity"
@@ -9273,17 +9273,17 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Gain +10% chance to hit and critically hit, and attacks bypass 10% of the target's Dodge chance when equipped with a dagger.",
-					"mastery": "Chance to hit, critically hit and Dodge bypass increase by 20%"
+					"basic": "When wielding a Dagger/Daggers, gain +5% chance to hit and Critically hit, and bypass +5% of the target's Dodge chance.",
+					"mastery": "Chance to hit, Critically hit and Dodge bypass increase by 10% instead."
 				},
 			    "effects": {
 					"basic": {
-					    "melee_hit_chance": 10,
-					    "critical_hit_chance": 10
+					    "melee_hit_chance": 5,
+					    "critical_hit_chance": 5
 					},
 					"mastery": {
-		                "melee_hit_chance": 20,
-					    "critical_hit_chance": 20
+		                "melee_hit_chance": 10,
+					    "critical_hit_chance": 10
 					},
 					"restrictions": [
 					    "dagger"
@@ -10694,8 +10694,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants Bless with filth for 2 turns. Not stackable.<br>Melee and Ranged attacks made under Bless with Filth will poison the target unless it passes a Poison Resistance test. The poison deals 10-13 damage, lasts 2 turns and is Stackable.",
-				"mastery": "Poison damage increases to 13-26 and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Grants Bless with filth for 2 turns. Not stackable.<br>Melee and Ranged attacks made under Bless with Filth will poison the target unless it passes a Poison Resistance test. The poison deals 7-10 damage, lasts 2 turns and is Stackable.",
+				"mastery": "Poison damage increases to 10-13 and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -11615,11 +11615,11 @@
 			},
 			"cost": {
 				"basic": 2,
-				"mastery": 2
+				"mastery": 4
 			},
 			"description": {
 				"basic": "Increases Critical and Poison Resistance by 15% and Armour Absorption by 5% for 2 turns. Not Stackable.",
-				"mastery": "Critical and Poison Resistance increases to 20% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%. Easy to Master."
+				"mastery": "Critical and Poison Resistance increases to 20% and Armour Absorption increases to 10% for 3 turns instead, range increases to 30m. Casting chance and Curse chance +5%."
 			},
 			"info": {
 				"cost": {
