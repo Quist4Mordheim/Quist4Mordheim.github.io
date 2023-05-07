@@ -8368,23 +8368,23 @@
 				"name": "Eagle Eyes",
 				"attribute": "ballistic_skill",
 				"requirements": {
-					"basic": 3,
-					"mastery": 9
+					"basic": 9,
+					"mastery": 15
 				},
 				"cost": {
 					"basic": 2,
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Ranged attacks bypass 5% of the target's Armour Absorption.",
-					"mastery": "Armour Absorption bypass increases to 15%."
+					"basic": "Ranged attacks bypass 10% of the target's Armour Absorption.",
+					"mastery": "Armour Absorption bypass increases to 20%."
 				},
 				"effects": {
 					"basic": {
-						"ranged_armour_bypass": 5
+						"ranged_armour_bypass": 10
 					},
 					"mastery": {
-						"ranged_armour_bypass": 15
+						"ranged_armour_bypass": 20
 					}
 				},
 				"icon": "ballistic_eagle_eyes"
@@ -8401,8 +8401,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases ranged Hit chance by 10% when higher than the target.",
-					"mastery": "Ranged Hit chance increases to 30%."
+					"basic": "Increases ranged Hit chance by 20% when higher than the target.",
+					"mastery": "Ranged Hit chance increases by 40% instead."
 				},
 				"icon": "ballistic_overhead"
 			},
@@ -8410,8 +8410,8 @@
 				"name": "Quick Reload",
 				"attribute": "ballistic_skill",
 				"requirements": {
-					"basic": 9,
-					"mastery": 15
+					"basic": 6,
+					"mastery": 12
 				},
 				"cost": {
 					"basic": 2,
@@ -8435,15 +8435,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Ranged attacks bypass 5% of the target's Ranged Resistance.",
-					"mastery": "Ranged Resistance bypass increases to 15%."
+					"basic": "Ranged attacks bypass 10% of the target's Ranged Resistance.",
+					"mastery": "Ranged Resistance bypass increases to 20%."
 				},
 				"effects": {
 					"basic": {
-						"ranged_bypass": 5
+						"ranged_bypass": 10
 					},
 					"mastery": {
-						"ranged_bypass": 15
+						"ranged_bypass": 20
 					}
 				},
 				"icon": "ballistic_trick_shooter"
@@ -8452,8 +8452,8 @@
 				"name": "Bullseye",
 				"attribute": "ballistic_skill",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 3,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
