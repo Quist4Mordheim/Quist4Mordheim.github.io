@@ -1061,7 +1061,7 @@
 			"type": "henchman",
 			"rating": 69,
 			"wounds": 106,
-			"skillpoints": 14,
+			"skillpoints": 12,
 			"spellpoints": 0,
 			"attributepoints": {
 				"physical": 17,
@@ -1124,7 +1124,8 @@
 			],
 			"perks": [
 				"last_stand",
-				"unwavering"
+				"unwavering",
+				"mutations-face"
 			],
 			"icon": "pos_darksouls",
 			"restrictions": {
@@ -1132,6 +1133,24 @@
 					"lads_got_talent",
 					"cult_of_the_possessed"
 				],
+				"mutations": [
+					"claw_foot",
+					"crown_of_bones",
+					"crusher",
+					"destroyer",
+					"executioner",
+					"extra_limb_axe",
+					"extra_limb_blade",
+					"extra_limb_mace",
+					"piercer",
+					"ripper",
+					"slicer",
+					"smasher",
+					"the_eye",
+					"thousand_eyes",
+					"wyrdstone_horns"
+				],
+				"mutationsLimit": 1,
 				"equipment": [
 					"empty_hand",
 					"axe",
@@ -4350,7 +4369,7 @@
 				},
 				"description": {
 					"basic": "Charge in an unbstructed line to engage a target and perform a melee attack that has a +10% chance to hit, deals +40% damage, and bypasses 15% of the target's Dodge and Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
-					"mastery": "Chance to hit increases to 20% and Dodge and Parry chance bypass to 30%. Easy to Master."
+					"mastery": "Chance to hit and Dodge and Parry chance bypass increases to 30%. Easy to Master."
 				},
 				"info": {
 					"cost": {
@@ -9895,6 +9914,10 @@
 		"mutations": {
 		    "name": "Mutations",
 			"description": "Gifted with a random mutation at Ranks 1, 4 and 7."
+		},
+		"mutations-face": {
+		    "name": "Mutation",
+			"description": "Gifted with 1 random Face Mutation at Rank 4."
 		},
 		"creation_instability": {
 		    "name": "Creation Instability",
