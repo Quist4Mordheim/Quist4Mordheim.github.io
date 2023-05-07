@@ -1073,15 +1073,12 @@
 		</ul>
         <h5>To Do / Wishlist (Quist's list; may or may not get around to these...)</h5>
         <ul>
-          <li>Mention Tzeentch curse instead of Divine Wrath for arcane casters</li>
           <li>Add enchantments</li>
         </ul>
         <h5>To Do / Wishlist (Nithon's list; may or may not get around to these...)</h5>
         <ul>
-          <li>Handle mutations restrictions to equip - DONE!</li>
           <li>Maybe add tooltips on attributes or an extra info page with mechanics</li>
           <li>Display extra stats (hit chance, crit damage, dodge bypass, etc)</li>
-          <li>Add enchantments</li>
           <li>Add rank progression</li>
           <li>Save planned profile</li>
         </ul>
@@ -1134,9 +1131,9 @@
                 <div class="ability-option-description-other"><span class="ability-option-label">Duration:</span> {{ duration }}</div>
                 <div class="ability-option-description-other"><span class="ability-option-label">Target:</span> {{ target }}</div>
                 <div class="ability-option-description-other"><span class="ability-option-label">Range:</span> {{ range }}</div>{{#if casting_chance}}
-                <div class="ability-option-description-other"><span class="ability-option-label">Casting Chance:</span> {{ casting_chance }}</div>{{/if}} {{#if casting_chance}}
-                <div class="ability-option-description-other"><span class="ability-option-label">Divine Wrath:</span> {{ divine_wrath }}</div>{{/if}} {{#if tzeentchs_curse}}
-                <div class="ability-option-description-other"><span class="ability-option-label">Tzeentch's Curse:</span> {{ tzeentchs_curse }}</div>{{/if}}</div>{{/if}} {{/if}}</div>{{#if mastery}}
+                <div class="ability-option-description-other"><span class="ability-option-label">Casting chance:</span> {{ casting_chance }}</div>{{/if}} {{#if divine_wrath}}
+                <div class="ability-option-description-other"><span class="ability-option-label">Divine wrath:</span> {{ divine_wrath }}</div>{{/if}} {{#if tzeentch_curse}}
+                <div class="ability-option-description-other"><span class="ability-option-label">Tzeentch curse:</span> {{ tzeentch_curse }}</div>{{/if}}</div>{{/if}} {{/if}}</div>{{#if mastery}}
             <div class="ability-option-actions clearfix">
               <div class="ability-option-version">
                 <form><label>Skill Version:</label><select class="{{ ability }}-select-version" name="version" data-ability-key="{{ name }}"><option value="basic">Basic</option>{{#if can_master}}<option value="mastery">Mastery</option>{{/if}}</select></form>

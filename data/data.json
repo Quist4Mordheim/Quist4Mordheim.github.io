@@ -10030,7 +10030,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Everyone within 5 meter radius",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "mercenaries_blinding_light"
 		},
@@ -10058,7 +10058,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "mercenaries_curse_of_rust"
 		},
@@ -10086,7 +10086,7 @@
 				"duration": "3 turn",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "mercenaries_scavengers_curse"
 		},
@@ -10114,7 +10114,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Enemies within a 5 meter radius",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "mercenaries_armour_of_lead"
 		},
@@ -10142,7 +10142,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-20%",
 				"target": "Everyone within a 5 meter radius.",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "mercenaries_dispel"
 		},
@@ -10170,7 +10170,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-20%",
 				"target": "Single enemy",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "mercenaries_lightning_strike"
 		},
@@ -10198,7 +10198,7 @@
 				"duration": "1 turn",
 				"casting_chance": "-20%",
 				"target": "Allies and enemies within a 5 meter radius around the caster.",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "mercenaries_dread_of_aramar"
 		},
@@ -10226,7 +10226,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5 meter radius.",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "mercenaries_fireball"
 		},
@@ -10478,7 +10478,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self or ally",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "possessed_blade_of_destruction"
 		},
@@ -10506,7 +10506,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self or Ally",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "possessed_boon_of_chaos"
 		},
@@ -10534,7 +10534,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5 meter radius",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "possessed_veil_of_corruption"
 		},
@@ -10562,7 +10562,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Allies and enemies within a 8 meter long by 5 meter wide cone",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "possessed_acid_breath"
 		},
@@ -10590,7 +10590,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Single enemy",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "possessed_lure_of_chaos"
 		},
@@ -10618,7 +10618,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Enemies within a 5 meter radius",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "possessed_curse_of_chaos"
 		},
@@ -10645,7 +10645,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-20%",
 				"target": "Enemies within a 5 meter radius around the caster",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "possessed_word_of_pain"
 		},
@@ -10672,7 +10672,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Allies and enemies within a 5 meter radius around the caster",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "possessed_vision_of_torment"
 		},
@@ -10700,7 +10700,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "skaven_wither"
 		},
@@ -10728,7 +10728,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self of single ally",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "skaven_bless_with_filth"
 		},
@@ -10756,7 +10756,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self and allies within 5 meter radius around the caster",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "skaven_musk_of_courage"
 		},
@@ -10784,7 +10784,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5 meter radius.",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "skaven_enshrouding_mist"
 		},
@@ -10812,7 +10812,7 @@
 				"duration": "2 turn",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5 meter radius.",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "skaven_poisonous_mists"
 		},
@@ -10840,7 +10840,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Single enemy",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "skaven_sorcerers_curse"
 		},
@@ -10868,7 +10868,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Enemies within a 5 meter radius around the caster",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "skaven_gaze_of_the_horned_rat"
 		},
@@ -10896,7 +10896,7 @@
 				"duration": "3 turns",
 				"casting_chance": "-20%",
 				"target": "Allies and enemies in a 20 meter long by 2 meter wide column",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "skaven_warp_lightning"
 		},
@@ -11148,7 +11148,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single ally or enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "doomweaver_boon_of_ruin"
 		},
@@ -11176,7 +11176,7 @@
 				"duration": "3 turns",
 				"casting_chance": "-15%",
 				"target": "Self or single ally",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "doomweaver_warp_accretion"
 		},
@@ -11204,7 +11204,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "Everyone in a 5m radius",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "doomweaver_spiteful_manifestation"
 		},
@@ -11232,7 +11232,7 @@
 				"duration": "1 turn",
 				"casting_chance": "-25%",
 				"target": "Single enemy",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "doomweaver_burning_blood"
 		},
@@ -11260,7 +11260,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Characters within 5m of the idol",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "doomweaver_idol_of_blood"
 		},
@@ -11288,7 +11288,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Everyone within 5m of the idol",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "doomweaver_idol_of_change"
 		},
@@ -11316,7 +11316,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Enemies within 5m of the idol",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "doomweaver_idol_of_pestilence"
 		},
@@ -11344,7 +11344,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Enemies within 5m of the idol",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "doomweaver_idol_of_lust"
 		},
@@ -11596,7 +11596,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "undead_rotten_touch"
 		},
@@ -11624,7 +11624,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single ally",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "undead_call_of_vanhel"
 		},
@@ -11652,7 +11652,7 @@
 				"duration": "2 turn",
 				"casting_chance": "-20%",
 				"target": "Single ally",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "undead_corpse_flesh"
 		},
@@ -11680,7 +11680,7 @@
 				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Living enemies within a 5m radius of the idol.",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "undead_idol_of_death"
 		},
@@ -11708,7 +11708,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-20%",
 				"target": "Single enemy",
-				"divine_wrath": "+10%"
+				"tzeentch_curse": "+10%"
 			},
 			"icon": "undead_lifestealer"
 		},
@@ -11736,7 +11736,7 @@
 				"duration": "1 turn",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
-				"divine_wrath": "+5%"
+				"tzeentch_curse": "+5%"
 			},
 			"icon": "undead_warp_overcharge"
 		},
@@ -11764,7 +11764,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-25%",
 				"target": "Everyone within a 5m radius",
-				"divine_wrath": "+15%"
+				"tzeentch_curse": "+15%"
 			},
 			"icon": "undead_heart_failure"
 		},
@@ -11792,7 +11792,7 @@
 				"duration": "0 turn",
 				"casting_chance": "-25%%",
 				"target": "Enemies within a 10m radius",
-				"divine_wrath": "15%"
+				"tzeentch_curse": "15%"
 			},
 			"icon": "undead_spell_of_doom"
 		}
