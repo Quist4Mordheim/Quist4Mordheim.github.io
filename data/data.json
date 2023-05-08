@@ -7772,7 +7772,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point if the new Leader is not a Caster. Trivial to Train.",
+					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point if the new Leader is not a Caster. Trivial to Train.",
 					"mastery": "Also provides 3 Physical, 4 Mental, and 3 Martial stat points, 4 skill points, and increases maximum Morale by 3."
 				},
 				"effects": {
@@ -8720,7 +8720,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Parry chance by 20%. Succeeding a Parry attempt reduces the cost of a Counter-Attack action performed in response by 2 Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point."
+					"basic": "Increases Parry chance by 20%. Succeeding a Parry attempt reduces the cost of a Counter-Attack action performed in response by 2 Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
 				},
 				"effects": {
 					"basic": {
@@ -8957,7 +8957,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Melee and ranged attacks have +20% to hit chance.<br>Melee attacks bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point."
+					"basic": "Melee and ranged attacks have +20% to hit chance.<br>Melee attacks bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
 				},
 				"effects": {
 					"basic": {
@@ -9639,7 +9639,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategic Point."
+					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
 				},
 				"effects": {
 				    "basic": {
