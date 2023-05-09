@@ -1,0 +1,13 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = tab
+insert_final_newline = false
+max_line_length = 700 #that's what you get for working on a minified file
+tab_width = 3
+
+[index.html]
+max_line_length = 2150
