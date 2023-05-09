@@ -13834,8 +13834,7 @@
 		"all_alone": 30,
 		"fear": 20,
 		"terror": 20,
-		"wyrdstone": 25,
-		"poison": 10
+		"wyrdstone": 25
 	},
 
 	"initiatives": {
