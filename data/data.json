@@ -50,7 +50,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 25,
+				"poison": 15,
 				"melee": 10,
 				"critical_hit": 5,
 				"wyrdstone": 25,
@@ -152,7 +152,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 10,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -243,7 +243,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 25,
+				"poison": 15,
 				"melee": 9,
 				"critical_hit": 5,
 				"wyrdstone": 25,
@@ -343,7 +343,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 22,
+				"poison": 12,
 				"melee": 9,
 				"critical_hit": 4,
 				"wyrdstone": 25,
@@ -432,7 +432,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 7,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -522,7 +522,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 9,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -612,7 +612,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 28,
+				"poison": 24,
 				"melee": 23,
 				"critical_hit": 6,
 				"wyrdstone": 25,
@@ -713,7 +713,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 11,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -818,7 +818,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -903,7 +903,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 28,
+				"poison": 18,
 				"melee": 9,
 				"critical_hit": 6,
 				"wyrdstone": 25,
@@ -1004,7 +1004,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 25,
+				"poison": 15,
 				"melee": 9,
 				"critical_hit": 5,
 				"wyrdstone": 25,
@@ -1107,7 +1107,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 6,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -1222,7 +1222,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 6,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -1316,7 +1316,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 58,
+				"poison": 48,
 				"melee": 21,
 				"critical_hit": 36,
 				"wyrdstone": 25,
@@ -1403,7 +1403,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 28,
+				"poison": 18,
 				"melee": 10,
 				"critical_hit": 6,
 				"wyrdstone": 25,
@@ -1499,7 +1499,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 28,
+				"poison": 18,
 				"melee": 10,
 				"critical_hit": 6,
 				"wyrdstone": 25,
@@ -1595,7 +1595,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 8,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -1692,7 +1692,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 22,
+				"poison": 12,
 				"melee": 10,
 				"critical_hit": 4,
 				"wyrdstone": 25,
@@ -1787,7 +1787,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 22,
+				"poison": 12,
 				"melee": 7,
 				"critical_hit": 4,
 				"wyrdstone": 25,
@@ -1883,7 +1883,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 6,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -1976,7 +1976,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 82,
+				"poison": 72,
 				"melee": 17,
 				"critical_hit": 44,
 				"wyrdstone": 25,
@@ -2067,7 +2067,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 15,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2157,7 +2157,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 9,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2258,7 +2258,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 12,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2346,7 +2346,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 12,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2434,7 +2434,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 44,
+				"poison": 49,
 				"melee": 8,
 				"critical_hit": 3,
 				"wyrdstone": 691,
@@ -2522,7 +2522,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 9,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2609,7 +2609,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 67,
+				"poison": 57,
 				"melee": 17,
 				"critical_hit": 39,
 				"wyrdstone": 25,
@@ -2694,7 +2694,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 11,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -2786,7 +2786,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 16,
+				"poison": 6,
 				"melee": 9,
 				"critical_hit": 2,
 				"wyrdstone": 25,
@@ -2878,7 +2878,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 19,
+				"poison": 9,
 				"melee": 12,
 				"critical_hit": 3,
 				"wyrdstone": 25,
@@ -2978,7 +2978,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3079,7 +3079,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3179,7 +3179,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3278,7 +3278,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3378,7 +3378,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 18,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3477,7 +3477,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 12,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3567,7 +3567,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 9,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
@@ -3662,7 +3662,7 @@
 				}
 			},
 			"resistances": {
-				"poison": 31,
+				"poison": 21,
 				"melee": 9,
 				"critical_hit": 7,
 				"wyrdstone": 25,
