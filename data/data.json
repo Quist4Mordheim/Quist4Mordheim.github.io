@@ -5120,7 +5120,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 4
+						"strategy": 3
 					},
 					"range": "0m",
 					"target": "Allies within a 5 meter radius",
@@ -6121,7 +6121,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage. If hit, the target's Switch Weapon and Reload actions cost +2SP for 3 turns."
+					"basic": "A melee attack that deals regular damage. The cost of Reload and Switch Weapons actions is increased by 2 Strategy Points for 3 turns for the target. Stackable."
 				},
 				"info": {
 					"cost": {
@@ -6688,12 +6688,12 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Deals 10-15 damage. Bypasses Armour Absorption.",
-					"mastery": "Damage increases to 20-30"
+					"basic": "Deals 15-20 damage. Bypasses Armour Absorption.",
+					"mastery": "Damage increases to 30-40."
 				},
 				"info": {
 					"cost": {
-						"offense": 2
+						"offense": 3
 					},
 					"range": "15m",
 					"target": "Everyone withim 3m",
@@ -6980,13 +6980,13 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Places an effigy at a target location that can be destroyed by enemies. The effigy increases the chance to pass All Alone, Fear, Terror by 30%, and Melee and Ranged Hit chance by 30% for allies within 5 meters for 3 turns. One use only. Effigy has 500 Wounds."
+					"basic": "Places an effigy at a target location that can be destroyed by enemies. Increases Melee and Ranged Hit chance and Parry- and Dodge bypass by 30% for allies within 5 meters for 3 turns. One use only. Effigy has 500 Wounds."
 				},
 				"info": {
 					"cost": {
-					    "strategy": 4
+					    "strategy": 3
 					},
-					"range": "5m",
+					"range": "10m",
 					"target": "Allies within 5m of the pyre",
 					"duration": "99 turns",
 					"stackable": "No"
@@ -7564,7 +7564,7 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "Reduces the cost of the Switch Weapon action by 2 Strategy Points.",
+					"basic": "Reduces the cost of the Switch Weapons action by 2 Strategy Points.",
 					"mastery": "Cost reduced by 1 Offense Point and 1 Strategy Point instead. Easy to Master."
 				},
 				"icon": "agility_quick_draw"
@@ -7756,7 +7756,7 @@
 				},
 				"description": {
 					"basic": "Reduces the cost of the skill Courage by 1 Strategy Point. Trivial to Train.",
-					"mastery": "Also reduces the cost of Coordination and Warcry by 1 Strategy Point. Easy to Master."
+					"mastery": "Also reduces the cost of Coordination and War Cry by 1 Strategy Point. Easy to Master."
 				},
 				"icon": "leadership_heroic_presence"
 			},
@@ -7772,7 +7772,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point if the new Leader is not a Caster. Trivial to Train.",
+					"basic": "Promote the Hero to Leader (one active Leader per Warband restriction still applies). Increases maximum Intelligence and Alertness by 3, and maximum Leadership by 4. Allows training of Leader skills.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point if the new Leader is not a Caster. Trivial to Train.",
 					"mastery": "Also provides 3 Physical, 4 Mental, and 3 Martial stat points, 4 skill points, and increases maximum Morale by 3."
 				},
 				"effects": {
@@ -8395,15 +8395,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Ranged attacks bypass 10% of the target's Armour Absorption.",
-					"mastery": "Armour Absorption bypass increases to 20%."
+					"basic": "Ranged attacks bypass 5% of the target's Armour Absorption.",
+					"mastery": "Armour Absorption bypass increases to 15%."
 				},
 				"effects": {
 					"basic": {
-						"ranged_armour_bypass": 10
+						"ranged_armour_bypass": 5
 					},
 					"mastery": {
-						"ranged_armour_bypass": 20
+						"ranged_armour_bypass": 15
 					}
 				},
 				"icon": "ballistic_eagle_eyes"
@@ -8420,8 +8420,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases ranged Hit chance by 20% when higher than the target.",
-					"mastery": "Ranged Hit chance increases by 40% instead."
+					"basic": "Increases ranged Hit chance by 10% when higher than the target.",
+					"mastery": "Ranged Hit chance increases by 30% instead."
 				},
 				"icon": "ballistic_overhead"
 			},
@@ -8454,15 +8454,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Ranged attacks bypass 10% of the target's Ranged Resistance.",
-					"mastery": "Ranged Resistance bypass increases to 20%."
+					"basic": "Ranged attacks bypass 5% of the target's Ranged Resistance.",
+					"mastery": "Ranged Resistance bypass increases to 15%."
 				},
 				"effects": {
 					"basic": {
-						"ranged_bypass": 10
+						"ranged_bypass": 5
 					},
 					"mastery": {
-						"ranged_bypass": 20
+						"ranged_bypass": 15
 					}
 				},
 				"icon": "ballistic_trick_shooter"
@@ -8720,7 +8720,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Parry chance by 20%. Succeeding a Parry attempt reduces the cost of a Counter-Attack action performed in response by 2 Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
+					"basic": "Increases Parry chance by 20%. Succeeding a Parry attempt reduces the cost of a Counter-Attack action performed in response by 2 Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
 				},
 				"effects": {
 					"basic": {
@@ -8898,7 +8898,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases melee Critical hit chance by 10% when using a Dagger, Bracers or Fighting Claws.",
+					"basic": "Increases melee Critical hit chance by 10% when using Fighting Claws, Bracers or at least one Dagger.",
 					"mastery": "Critical hit chance increases to 20%."
 				},
 				"effects": {
@@ -8957,7 +8957,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Melee and ranged attacks have +20% to hit chance.<br>Melee attacks bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
+					"basic": "Melee and ranged attacks have +20% to hit chance.<br>Melee attacks bypass 20% of target's Dodge chance.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
 				},
 				"effects": {
 					"basic": {
@@ -9292,7 +9292,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When wielding a Dagger/Daggers, gain +5% chance to hit and Critically hit, and bypass +5% of the target's Dodge chance.",
+					"basic": "When wielding at least one Dagger, gain +5% chance to hit and Critically hit, and bypass +5% of the target's Dodge chance.",
 					"mastery": "Chance to hit, Critically hit and Dodge bypass increase by 10% instead."
 				},
 			    "effects": {
@@ -9399,8 +9399,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When another ally is engaged with the same enemy, increases Hit chance and Dodge and Parry bypass against the target by 20%.",
-					"mastery": "Hit chance and Dodge and Parry bypass increases to 60%."
+					"basic": "When another ally is engaged with the same enemy, increases Hit chance and Dodge and Parry bypass against the target by 10%.",
+					"mastery": "Hit chance and Dodge and Parry bypass increases to 30%."
 				},
 				"icon": "smuggler_tight_crew"
 			},
@@ -9639,7 +9639,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, Warcry by 1 Strategy Point."
+					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
 				},
 				"effects": {
 				    "basic": {
@@ -9677,7 +9677,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When engaged with 2 or more enemies, increases Melee Resistance by 20%. Not Stackable"
+					"basic": "When engaged with 2 or more enemies, increases Melee Resistance by 30%. Not Stackable."
 				},
                 "icon": "witch_hunters_stoic"
 			},
@@ -11802,23 +11802,23 @@
 		"destroyer": {
 			"name": "Destroyer",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +{{ melee_armour_bypass }}% Armour Absorption<br>On hit, applies a poison debuff that reduces Melee Damage dealt by {{ melee_damage_reduction }}% for {{ melee_damage_reduction_duration }} turns. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +{{ melee_armour_bypass }}% Armour Absorption<br>On hit, applies a poison debuff that reduces Melee Resistance by {{ melee_resistance_reduction }}% for {{ melee_resistance_reduction_duration }} turns. Stackable.",
 			"effects": {
 				"initiative": 0,
 			    "normal": {
 				    "melee_armour_bypass": 6,
-				    "melee_damage_reduction": 3,
-					"melee_damage_reduction_duration": 2
+				    "melee_resistance_reduction": 3,
+					"melee_resistance_reduction_duration": 2
 				},
 				"good": {
 				    "melee_armour_bypass": 9,
-				    "melee_damage_reduction": 6,
-					"melee_damage_reduction_duration": 2				
+				    "melee_resistance_reduction": 6,
+					"melee_resistance_reduction_duration": 2				
 				},
 				"masterwork": {
 				    "melee_armour_bypass": 12,
-				    "melee_damage_reduction": 6,
-					"melee_damage_reduction_duration": 3				
+				    "melee_resistance_reduction": 6,
+					"melee_resistance_reduction_duration": 3				
 				}
 			}
 		},
@@ -11848,46 +11848,46 @@
 		"slicer": {
 			"name": "Slicer",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Melee Resistance by {{ melee_resist_reduction }}% for {{ melee_resist_reduction_duration }} turns. Stackable. Also grants the ability to Parry.",
+			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Melee Damage dealt by {{ melee_damage_reduction }}% for {{ melee_damage_reduction_duration }} turns. Stackable. Also grants the ability to Parry.",
 			"effects": {
 				"initiative": 5,
 				"normal": {
 					"melee_hit_chance": 4,
-					"melee_resist_reduction": 3,
-					"melee_resist_reduction_duration": 2
+					"melee_damage_reduction": 3,
+					"melee_damage_reduction_duration": 2
 				},
 				"good": {
 					"melee_hit_chance": 8,
-					"melee_resist_reduction": 6,
-					"melee_resist_reduction_duration": 2
+					"melee_damage_reduction": 6,
+					"melee_damage_reduction_duration": 2
 				},
 				"masterwork": {
 					"melee_hit_chance": 12,
-					"melee_resist_reduction": 6,
-					"melee_resist_reduction_duration": 3
+					"melee_damage_reduction": 6,
+					"melee_damage_reduction_duration": 3
 				}
 			}
 		},
 		"piercer": {
 			"name": "Piercer",
 			"slot": "left_arm",
-			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Ranged Resistance by {{ ranged_resist_reduction }}% for {{ ranged_resist_reduction_duration }} turns. Stackable. Also grants Parry and +5 Initiative.",
+			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Melee Hit chance by {{ melee_hit_chance_reduction }}% for {{ melee_hit_chance_reduction_duration }} turns. Stackable. Also grants Parry and +5 Initiative.",
 			"effects": {
 				"initiative": 5,
 				"normal": {
 					"melee_hit_chance": 4,
-					"ranged_resist_reduction": 5,
-					"ranged_resist_reduction_duration": 2
+					"melee_hit_chance_reduction": 5,
+					"melee_hit_chance_reduction_duration": 2
 				},
 				"good": {
 					"melee_hit_chance": 8,
-					"ranged_resist_reduction": 10,
-					"ranged_resist_reduction_duration": 2
+					"melee_hit_chance_reduction": 10,
+					"melee_hit_chance_reduction_duration": 2
 				},
 				"masterwork": {
 					"melee_hit_chance": 12,
-					"ranged_resist_reduction": 10,
-					"ranged_resist_reduction_duration": 3
+					"melee_hit_chance_reduction": 10,
+					"melee_hit_chance_reduction_duration": 3
 				}
 			}
 		},
@@ -12585,7 +12585,7 @@
 							"max": 21
 						},
 						"dodge_bypass": 5,
-						"critical_hit_chance": 4,
+						"critical_hit_chance": 2,
 						"damage_ambush": 50
 					},
 					"good": {
@@ -12594,7 +12594,7 @@
 							"max": 27
 						},
 						"dodge_bypass": 10,
-						"critical_hit_chance": 6,
+						"critical_hit_chance": 3,
 						"damage_ambush": 70
 					},
 					"masterwork": {
@@ -12603,7 +12603,7 @@
 							"max": 33
 						},
 						"dodge_bypass": 15,
-						"critical_hit_chance": 8,
+						"critical_hit_chance": 4,
 						"damage_ambush": 90
 					}
 				}
@@ -13065,21 +13065,21 @@
 							"min": 18,
 							"max": 26
 						},
-						"critical_hit_chance": 2
+						"critical_hit_chance": 4
 					},
 					"good": {
 						"damage": {
 							"min": 24,
 							"max": 32
 						},
-						"critical_hit_chance": 3
+						"critical_hit_chance": 6
 					},
 					"masterwork": {
 						"damage": {
 							"min": 30,
 							"max": 38
 						},
-						"critical_hit_chance": 4
+						"critical_hit_chance": 8
 					}
 				}
 			},
