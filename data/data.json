@@ -11853,17 +11853,17 @@
 				"initiative": 5,
 				"normal": {
 					"melee_hit_chance": 4,
-					"melee_damage_reduction": 3,
+					"melee_damage_reduction": 5,
 					"melee_damage_reduction_duration": 2
 				},
 				"good": {
 					"melee_hit_chance": 8,
-					"melee_damage_reduction": 6,
+					"melee_damage_reduction": 10,
 					"melee_damage_reduction_duration": 2
 				},
 				"masterwork": {
 					"melee_hit_chance": 12,
-					"melee_damage_reduction": 6,
+					"melee_damage_reduction": 10,
 					"melee_damage_reduction_duration": 3
 				}
 			}
