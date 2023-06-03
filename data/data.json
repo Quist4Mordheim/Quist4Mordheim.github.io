@@ -8687,7 +8687,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After missing with a melee attack, Melee Resistance increases by 8% for 3 turns. Stackable."
+					"basic": "When receiving melee or ranged damage, increases Dodge, Parry, and Ranged Resistance by 15% for 3 turns. Stackable."
 				},
 				"icon": "mercenaries_adaptable_defense"
 			},
