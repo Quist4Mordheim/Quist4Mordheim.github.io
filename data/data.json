@@ -4610,7 +4610,7 @@
 				},
 				"description": {
 					"basic": "Once per turn, restores 1 Offense Point but removes 30 Wounds at the beginning of next turn. This loss can render the target Out of Action.",
-					"mastery": "Restores up to 2 Offense Points."
+					"mastery": "Restores up to 2 Offense Points instead."
 				},
 				"info": {
 					"cost": {},
@@ -4634,8 +4634,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Once per turn, restores 1 Strategy Point but removes 30 Wounds at the beginning of next turn. This loss can render the target Out of Action. This also prevents using the skill Meditation and Introspection.",
-					"mastery": "Restores up to 2 Strategy Points."
+					"basic": "Once per turn, restores 1 Strategy Point but removes 30 Wounds at the beginning of next turn. This loss can render the target Out of Action.",
+					"mastery": "Restores up to 2 Strategy Points instead."
 				},
 				"info": {
 					"cost": {},
@@ -11305,7 +11305,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Summons an idol at target area.  Enemies near the totem have their 9 primary attributes reduced by 2. Cannot reduce below 1. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"basic": "Summons an idol at target area.  Enemies near the totem have their 9 primary attributes reduced by 3. Cannot reduce below 1. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
 				"mastery": "Primary attribute penalty increased to 4, range to 10m. Casting chance and Curse chance +5%"
 			},
 			"info": {
