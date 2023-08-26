@@ -6607,8 +6607,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Place a fake Wyrdstone Cluster at target location that explodes when an enemy approaches within 2 meters. Reduces current OP and SP by 2, and reduces movement range by 2m to everyone within 5m for 4 turns. One use only. The movement range Debuff is Stackable.",
-					"mastery": "OP and SP reduced by 4."
+					"basic": "Place a fake Wyrdstone Cluster at target location that explodes when an enemy approaches within 2 meters. Reduces current Offence Points and Strategy Points by 2, and reduces movement range by 2m to everyone within 5m for 4 turns. One use only. The movement range Debuff is Stackable.",
+					"mastery": "Offence Points and Strategy Points reduced by 4 instead."
 				},
 				"info": {
 					"cost": {
