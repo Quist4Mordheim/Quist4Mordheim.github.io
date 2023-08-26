@@ -6607,7 +6607,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Place a fake Wyrdstone Cluster at target location that explodes when an enemy approaches within 2 meters. Reduces current OP and SP by 2, and reduces movement range by 2m to everyone within 5m for 3 turns. One use only. The movement range Debuff is Stackable.",
+					"basic": "Place a fake Wyrdstone Cluster at target location that explodes when an enemy approaches within 2 meters. Reduces current OP and SP by 2, and reduces movement range by 2m to everyone within 5m for 4 turns. One use only. The movement range Debuff is Stackable.",
 					"mastery": "OP and SP reduced by 4."
 				},
 				"info": {
@@ -7130,8 +7130,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Reduces current OP and SP by 2 for everyone within 5m and applies a debuff that reduces Melee and Ranged Hit chance by 10% for 2 turns. One use only.",
-					"mastery": "OP and SP reduced by 4 and Hit chance penalty increases to 20% for 3 turns instead."
+					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Reduces current OP and SP by 2 for everyone within 5m and applies a debuff that reduces Melee and Ranged Hit chance by 10% for 4 turns. One use only.",
+					"mastery": "OP and SP reduced by 4 and Hit chance penalty increases to 20% instead."
 				},
 				"info": {
 					"cost": {
@@ -7156,8 +7156,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Applies a debuff to enemies within 10m that reduces Initiative by 20, All Alone, Fear, and Terror by 20% and renders their location visible for 2 turns. One use only. Stackable",
-					"mastery": "Initiative penalty increases to 40 and All Alone, Fear, and Terror penalty to 40% for 3 turns."
+					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Applies a debuff to enemies within 10m that reduces Initiative by 20, All Alone, Fear, and Terror by 20% and renders their location visible for 4 turns. One use only. Stackable.",
+					"mastery": "Initiative penalty increases to 40 and All Alone, Fear, and Terror penalty to 40% instead."
 				},
 				"info": {
 					"cost": {
@@ -7738,7 +7738,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After passing an All Alone, Fear, or Terror test, increases Melee Resistance by 15% for 2 turns. Stackable.",
+					"basic": "After passing an All Alone, Fear, or Terror test, increases Melee Resistance by 10% for 2 turns. Stackable.",
 					"mastery": "Melee Resistance increases to 20% for 3 turns. Stackable."
 				},
 				"icon": "leadership_serenity"
@@ -8687,7 +8687,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When receiving melee or ranged damage, increases Dodge, Parry, and Ranged Resistance by 15% for 3 turns. Stackable."
+					"basic": "When receiving melee or ranged damage, increases Dodge and Parry by 15% and Ranged Resistance by 10% for 3 turns. Stackable."
 				},
 				"icon": "mercenaries_adaptable_defense"
 			},
@@ -8974,7 +8974,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After a successful Leap or Jump Down, Movement range increases by 4 meters for 3 turns. Not Stackable."
+					"basic": "After a successful Leap or Jump Down, Movement range increases by 3 meters for 3 turns. Not Stackable."
 				},
 				"icon": "skaven_fleet_footed"
 			},
@@ -9677,7 +9677,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When engaged with 2 or more enemies, increases Melee Resistance by 30%. Not Stackable."
+					"basic": "When engaged with 2 or more enemies, increases Melee Resistance and Hit chance by 15%. Not Stackable."
 				},
                 "icon": "witch_hunters_stoic"
 			},
@@ -9688,7 +9688,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Gain +10% Armour Absorption."
+					"basic": "Gain +20% Armour Absorption."
 				},
 				"effects": {
 					"basic": {
@@ -9737,8 +9737,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After failing a Magic Resistance test, increases Melee Damage by 15% for 3 turns. Stackable.",
-					"mastery": "Melee damage boost increases to 30%."
+					"basic": "After failing a Magic Resistance test, increases Melee Damage and Magic Resistance by 15% for 2 turns. Stackable.",
+					"mastery": "Increases Melee Damage and Magic Resistance by 20% for 3 turns instead."
 				},
 				"icon": "witch_hunters_sigil_of_sigmar"
 			},
