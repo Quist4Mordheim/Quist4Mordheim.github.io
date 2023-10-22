@@ -9692,7 +9692,7 @@
 				},
 				"effects": {
 					"basic": {
-                        "armour": 10
+                        "armour": 20
 					}
 				},
                 "icon": "witch_hunters_fanaticism"
