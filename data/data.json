@@ -9046,7 +9046,7 @@
 					"mastery": 2
 				},
 				"description": {
-					"basic": "After every Delay, Climb, Leap, or Jump Down action, receive a 80% chance to recover 1 Strategy Point.",
+					"basic": "After every Climb, Leap, or Jump Down action, receive an 80% chance to recover 1 Strategy Point, and 40% chance after a Delay action.",
 					"mastery": "Also increases movement range with +1 meter. Easy to Master."
 				},
 				"effects": {
@@ -10543,8 +10543,8 @@
 			"type": "cult_of_the_possessed",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
