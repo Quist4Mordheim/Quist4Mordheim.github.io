@@ -7923,6 +7923,8 @@
 						"type": "hero"
 					},
 					"mastery": {
+						"initiative": 2,
+						"morale": 3,
 						"physical": 3,
 						"strength": 2,
 						"toughness": 2,
