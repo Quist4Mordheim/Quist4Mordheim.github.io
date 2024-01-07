@@ -4979,8 +4979,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Dodge and Parry chance by 20% for 2 turns. Can only be used while not engaged. Not Stackable.",
-					"mastery": "Dodge and Parry chance increases to 30%, duration to 3 turns and range to 20 meters. Not Stackable."
+					"basic": "Increases Dodge and Parry chance by 15% for 2 turns. Can only be used while not engaged. Not Stackable.",
+					"mastery": "Dodge and Parry chance increases to 20%, duration to 3 turns and range to 20 meters. Not Stackable."
 				},
 				"info": {
 					"cost": {
