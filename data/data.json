@@ -4709,7 +4709,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Ranged Resistance by 20% but reduces movement range by by 1 meters for 2 turns.",
+					"basic": "Increases Ranged Resistance by 20% but reduces movement range by 1 meter for 2 turns.",
 					"mastery": "Ranged Resistance increases to 40% and duration to 3 turns."
 				},
 				"info": {
@@ -6959,7 +6959,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Ranged Resistance of allies by 20% for 1 turn, but reduces Movement range of the caster by 1 meter for 2 turns. Cannot be used while engaged. Not Stackable.",
+					"basic": "Increases Ranged Resistance of allies by 20% for 2 turns, but reduces Movement range of the caster by 1 meter for 2 turns. Cannot be used while engaged. Not Stackable.",
 					"mastery": "Ranged Resistance bonus increases to 40%, but Movement range penalty increases to 2m for 3 turns."
 				},
 				"info": {
