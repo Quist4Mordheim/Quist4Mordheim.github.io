@@ -3197,7 +3197,7 @@
 				"purge_the_heretic"
 			],
 			"perks": [
-				"sigmars_ward"
+				"sigmars_ward",
 				"vitality"
 			],
 			"restrictions": {
