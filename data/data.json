@@ -1649,46 +1649,46 @@
 			"skillpoints": 30,
 			"spellpoints": 0,
 			"attributepoints": {
-				"physical": 15,
-				"mental": 15,
-				"martial": 15
+				"physical": 19,
+				"mental": 18,
+				"martial": 18
 			},
 			"attributes": {
 				"strength": {
 					"min": 4,
-					"max": 12
+					"max": 13
 				},
 				"toughness": {
 					"min": 4,
-					"max": 12
+					"max": 13
 				},
 				"agility": {
 					"min": 6,
-					"max": 15
+					"max": 16
 				},
 				"leadership": {
 					"min": 3,
-					"max": 9
+					"max": 11
 				},
 				"intelligence": {
 					"min": 4,
-					"max": 15
+					"max": 16
 				},
 				"alertness": {
 					"min": 6,
-					"max": 15
+					"max": 16
 				},
 				"weapon_skill": {
 					"min": 4,
-					"max": 12
+					"max": 13
 				},
 				"ballistic_skill": {
 					"min": 5,
-					"max": 15
+					"max": 16
 				},
 				"accuracy": {
 					"min": 4,
-					"max": 15
+					"max": 16
 				}
 			},
 			"resistances": {
@@ -1706,6 +1706,9 @@
 			},
 			"skills": [
 				"squires_curse"
+			],
+			"perks": [
+				"vitality"
 			],
 			"icon": "mer_youngbloods",
 			"restrictions": {
@@ -2803,7 +2806,6 @@
 			],
 			"perks": [
 				"gas_mask",
-				"cumbersome_gear"
 			],
 
 			"restrictions": {
@@ -3136,46 +3138,46 @@
 			"skillpoints": 30,
 			"spellpoints": 0,
 			"attributepoints": {
-				"physical": 13,
-				"mental": 15,
-				"martial": 17
+				"physical": 16,
+				"mental": 19,
+				"martial": 20
 			},
 			"attributes": {
 				"strength": {
 					"min": 3,
-					"max": 12
+					"max": 13
 				},
 				"toughness": {
 					"min": 3,
-					"max": 12
+					"max": 13
 				},
 				"agility": {
 					"min": 6,
-					"max": 16
+					"max": 17
 				},
 				"leadership": {
 					"min": 4,
-					"max": 9
+					"max": 11
 				},
 				"intelligence": {
 					"min": 3,
-					"max": 12
+					"max": 13
 				},
 				"alertness": {
 					"min": 5,
-					"max": 15
+					"max": 16
 				},
 				"weapon_skill": {
 					"min": 4,
-					"max": 15
+					"max": 16
 				},
 				"ballistic_skill": {
 					"min": 6,
-					"max": 12
+					"max": 13
 				},
 				"accuracy": {
 					"min": 6,
-					"max": 17
+					"max": 18
 				}
 			},
 			"resistances": {
@@ -3196,6 +3198,7 @@
 			],
 			"perks": [
 				"sigmars_ward"
+				"vitality"
 			],
 			"restrictions": {
 				"skills": [
@@ -3487,7 +3490,7 @@
 				"trap": 0
 			},
 			"other": {
-				"movement": 6
+				"movement": 7
 			},
 			"skills": [
 				"fanaticism"
@@ -3682,7 +3685,8 @@
 				"unwavering",
 				"last_stand",
 				"impressive",
-				"burning_rage"
+				"burning_rage",
+				"sigmars_aegis"
 			],
 			"restrictions": {
 				"skills": [
@@ -5065,8 +5069,8 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 4,
-						"strategy": 1
+						"offense": 3,
+						"strategy": 2
 					},
 					"range": "15m",
 					"target": "Single engaged ally",
@@ -5558,8 +5562,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the Chance to hit in melee by 5% for 2 turns. Not Stackable.",
-					"mastery": "Chance to hit increases by 10% for 3 turns. Not Stackable."
+					"basic": "Increases the Chance to hit in melee by 10% for 2 turns. Not Stackable.",
+					"mastery": "Chance to hit increases by 15% for 3 turns. Not Stackable."
 				},
 				"info": {
 					"cost": {
@@ -6200,8 +6204,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Melee and Ranged Resistance by 5% for 2 turns.",
-					"mastery": "Melee and Ranged Resistance increases to 10% for 3 turns."
+					"basic": "Increases Melee and Ranged Resistance by 10% for 2 turns.",
+					"mastery": "Melee and Ranged Resistance increases to 15% for 3 turns."
 				},
 				"info": {
 					"cost": {
@@ -7670,7 +7674,7 @@
 				},
 				"description": {
 					"basic": "Reduces the cost of the skill Retreat by 1 Strategy Point. Trivial to Train.",
-					"mastery": "Also reduces the cost of Rallying Cry by 1 Strategy Point and Order by 1 Offense Point."
+					"mastery": "Also reduces the cost of Rallying Cry and Order by 1 Strategy Point."
 				},
 				"icon": "leadership_battle_tongue"
 			},
@@ -8635,8 +8639,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When engaged with 2 or more enemies, increases Armour Absorption and Melee Resistance by 5%.",
-					"mastery": "Armour Absorption and Melee Resistance increase to 10% instead."
+					"basic": "When engaged with 2 or more enemies, increases Melee Resistance by 10%. Not stackable.",
+					"mastery": "Also increases Armour Absorption by 10% when engaged with 2 or more enemies."
 				},
 				"icon": "mercenaries_combat_expertise"
 			},
@@ -8722,7 +8726,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Parry chance by 20%. Succeeding a Parry attempt reduces the cost of a Counter-Attack action performed in response by 2 Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
+					"basic": "Increases Parry chance by 20%. After a successful Parry attempt, counterattack costs no Offense Points.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
 				},
 				"effects": {
 					"basic": {
@@ -8743,8 +8747,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 15%.",
-					"mastery": "Chance to pass increases to 30%."
+					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 20%.",
+					"mastery": "Chance to pass increases to 40%."
 				},
 				"effects": {
 					"basic": {
@@ -8817,7 +8821,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After successfully casting a spell, the cost of the next melee Attack or Charge is reduced by 1 Offense Point. The next action taken must be a melee Attack or Charge or the effect is lost."
+					"basic": "After successfully casting a spell, the cost of the next melee Attack or Charge is reduced by 2 Offense Points. The next action taken must be a melee Attack or Charge or the effect is lost."
 				},
 				"icon": "sisters_divine_fervor"
 			},
@@ -9641,7 +9645,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point.<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
+					"basic": "Increases Dodge change by 20%. After a successful Dodge attempt, counterattack costs no Offense Points (up to 9OP cost reduction).<br>Reduces the cost of Courage, Rallying Cry, Coordination, Order, Retreat, War Cry by 1 Strategy Point."
 				},
 				"effects": {
 				    "basic": {
@@ -9690,11 +9694,11 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "Gain +20% Armour Absorption."
+					"basic": "Increases Armour Absorption by 10%."
 				},
 				"effects": {
 					"basic": {
-                        "armour": 20
+                        "armour": 10
 					}
 				},
                 "icon": "witch_hunters_fanaticism"
@@ -9952,9 +9956,9 @@
 		    "name": "Gas Mask",
 			"description": "Immune to breathable poison effects, such as Globes, most traps, and certain spells."
 		},
-		"cumbersome_gear": {
-		    "name": "Cumbersome Gear",
-			"description": "Reduces Movement range by 1m."
+		"vitality": {
+		    "name": "Vitality",
+			"description": "+10 maximum stats total. Gains 10 more total stats from Rank progression."
 		},
 		"pillager": {
 		    "name": "Pillager",
@@ -10663,7 +10667,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Either Stuns all targets who fail a Stun Resistance test, OR inflicts a debuff on all targets that reduces Melee and Ranged Resistance along with Parry and Dodge chance by 10% for 2 turns.",
+				"basic": "Either Stuns all targets who fail a Stun Resistance test, OR inflicts a debuff on all targets that reduces Melee and Ranged Resistance along with Parry and Dodge chance by 10% for 2 turns. Stackable.",
 				"mastery": "All penalities listed above increase to 30% and duration to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
@@ -10971,8 +10975,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces the cost of Charge by 1 Offense Point and, when another ally is engaged with the same enemy, increases melee Hit chance and Critical hit chance by 5% for 2 turns. Not Stackable.",
-				"mastery": "Melee hit chance and Critical Hit chance increased by 10% and duration to 3 turns. Casting chance and Wrath chance +5%"
+				"basic": "Reduces the cost of Ambush by 1 Offense Point. When another ally is engaged with the same enemy, increases melee Hit chance and Critical hit chance by 5% for 2 turns. Not Stackable.",
+				"mastery": "Melee hit chance and Critical Hit chance increased by 10% and duration to 3 turns. Reduces the cost of Charge instead. Casting chance and Wrath chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11195,7 +11199,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Deals 8-13 damage and reduces Armour Absorption by 5% for 2 turns. Bypasses Armour Absorption. Not Stackable.",
+				"basic": "Deals 8-13 damage and reduces Armour Absorption by 5% for 2 turns. Bypasses Armour Absorption. Stackable.",
 				"mastery": "Damage increases to 16-26, Armour Absorption penalty to 10% for 3 turns. Range is reduced to 20m. Casting chance and Curse chance +5%"
 			},
 			"info": {
@@ -12551,7 +12555,7 @@
 				"type": "melee",
 				"name": "Bracers",
 				"description": "Overwhelm: Attack cannot be parried.<br>Dual Wielding: -25% Melee Damage<br>Tiring: +1 OP cost for each successive Attack or Attack Skill. Stackable.",
-				"initiative": 5,
+				"initiative": -10,
 				"twohanded": true,
 				"dual_wield": true,				
 				"effects": {
