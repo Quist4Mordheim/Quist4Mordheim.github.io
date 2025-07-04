@@ -8752,14 +8752,14 @@
 				},
 				"effects": {
 					"basic": {
-						"all_alone": 15,
-						"fear": 15,
-						"terror": 15
+						"all_alone": 20,
+						"fear": 20,
+						"terror": 20
 					},
 					"mastery": {
-						"all_alone": 30,
-						"fear": 30,
-						"terror": 30
+						"all_alone": 40,
+						"fear": 40,
+						"terror": 40
 					}
 				},
 				"icon": "sisters_absolute_faith"
