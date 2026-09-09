@@ -11143,8 +11143,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces the cost of Counter-Attack by 1 Offense Point and increases Melee Hit Chance by 5% but, when performing a melee attack, suffer 5-15 damage for 2 turns. Not Stackable.",
-				"mastery": "Melee Hit Chance increases by 10%, damage to 10-20, range to 30m, duration to 3 turns. Casting chance and Curse chance +5%"
+				"basic": "Reduces the cost of Counter-Attack by 1 Offense Point and increases Melee Hit Chance by 10% for 2 turns. Attacking in melee inflicts 15-20 damage to self. Not Stackable.",
+				"mastery": "Melee Hit Chance increases by 15% and damage to 20-30 for 3 turns instead. Range increases to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
