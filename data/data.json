@@ -259,8 +259,7 @@
 				"unsettling_charge"
 			],
 			"perks": [
-				"divine_caster",
-				"last_stand"
+				"divine_caster"
 			],
 			"spells": [
 				"blessing_of_athleticism"
@@ -732,7 +731,7 @@
 				"arcane_caster"
 			],
 			"spells": [
-				"weapons_of_destruction"
+				"boon_of_chaos"
 			],
 			"icon": "pos_magister",
 			"restrictions": {
@@ -919,7 +918,6 @@
 				"norse_charge"
 			],
 			"perks": [
-				"last_stand",
 				"mutations"
 			],
 			"icon": "pos_marauder",
@@ -3397,7 +3395,6 @@
 				"stoic"
 			],
 			"perks": [
-				"last_stand",
 				"unwavering"
 			],
 			"restrictions": {
@@ -4221,7 +4218,6 @@
 				"disease_carrier"
 			],
 			"perks": [
-				"last_stand",
 				"unwavering",
 				"feral",
 				"death_stench_immunity"
@@ -4303,9 +4299,8 @@
 			],
 			"perks": [
 				"large",
-				"impressive",
-				"last_stand",
 				"unwavering",
+				"impressive",
 				"death_stench_immunity"
 			],
 			"icon": "undead_crypt_horror",
@@ -4480,8 +4475,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage but with a -40% chance to hit. If hit, the target is stunned unless they pass a Stun Resistance test.",
-					"mastery": "Chance to hit penalty reduced to -20%."
+					"basic": "A melee attack that deals regular damage but with a -25% chance to hit. If hit, the target is stunned unless they pass a Stun Resistance test.",
+					"mastery": "Chance to hit penalty reduced to -5%."
 				},
 				"info": {
 					"cost": {
@@ -10389,8 +10384,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Grants immunity to All Alone tests for 2 turns.",
-				"mastery": "Also grants immunity to Fear. Duration increases to 3 turns. Range increases to 30 meters.<br>Casting chance and Divine Wrath +5%."
+				"basic": "Increases All Alone, Fear, Terror, and Stun Resistance by 20%, and Initiative by 5, for 2 turns.",
+				"mastery": "Increases All Alone, Fear, Terror, and Stun Resistance by 30%, and Initiative by 10, for 3 turns instead.<br>Casting chance and Divine Wrath +5%."
 			},
 			"info": {
 				"cost": {
@@ -10445,7 +10440,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Restores up to 2 Offense Points but consumes up to 2 Strategy Points. If the target is stunned, it will also recover.",
+				"basic": "Restores up to 3 Offense Points, but consumes up to 3 Strategy Points. If the target is stunned, it will also recover.",
 				"mastery": "Offense Points restored and Strategy Points removed increase to 4 and range to 30 meters.<br>Casting chance and Divine Wrath +5%."
 			},
 			"info": {
@@ -10501,8 +10496,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 2 for 2 turns. Stackable per category.",
-				"mastery": "Attribute bonus increases to 4, duration to 3 turns, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 3 for 2 turns. Stackable per category.",
+				"mastery": "Attribute bonus increases to 5, duration to 3 turns, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10613,8 +10608,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and reduces its stats by 2 for 2 turns on all targets. Cannot reduce below 1. Stackable.",
-				"mastery": "Attributes penalty increases to 4, duration to 3 turns and range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and reduces its stats by 3 for 2 turns on all targets. Cannot reduce below 1. Stackable.",
+				"mastery": "Attributes penalty increases to 5, duration to 3 turns and range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10751,8 +10746,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Immunity to All Alone tests for 2 turns.",
-				"mastery": "Also provides immunity to Fear and Terror tests. Duration increases to 3 turns.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Increases All Alone, Fear and Terror Resistance, and chance to pass Rout tests by 15%, and reduces Initiative by 5 for 2 turns.",
+				"mastery": "Increases All Alone, Fear and Terror Resistance, and chance to pass Rout tests by 20%, and reduces Initiative by 10 for 3 turns instead.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -11171,8 +11166,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": " Increases Wyrdstone Resistance by 20%. Not Stackable.<br>Gathering a Wyrdstone increases Critical Resistance by 10% for 3 turns. Stackable.",
-				"mastery": "Wyrdstone Resistance increases by 40%, Critical Resistance by 20%, range to 30m. Casting chance and Curse chance +5%"
+				"basic": " Increases Wyrdstone Resistance by 20% for 3 turns. Gathering a Wyrdstone increases Armour Absorption by 5% for 3 turns. Not Stackable.",
+				"mastery": "Wyrdstone Resistance increases to 40%, Armour Absorption to 10%, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -11620,7 +11615,7 @@
 			},
 			"description": {
 				"basic": "Increases Movement by 2m and Armour Absorption by 15% for Zombies. Increases Initiative by 10 and Dodge chance by 10% for Vampires, Vampire Thralls, Ghouls and Crypt Horrors. Not Stackable. Does not affect living targets.",
-				"mastery": "Movement increases to 4m, Armour Absorption to 30%, Initiative to 20, Dodge chance to 20%, range to 30m, duration to 3 turns. Casting chance and Curse chance +5%"
+				"mastery": "Movement increases to 4m, Armour Absorption to 20%, Initiative to 20, Dodge chance to 20%, range to 30m, duration to 3 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -12561,20 +12556,20 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 35,
-							"max": 45
+							"min": 38,
+							"max": 48
 						}
 					},
 					"good": {
 						"damage": {
-							"min": 47,
-							"max": 57
+							"min": 50,
+							"max": 60
 						}
 					},
 					"masterwork": {
 						"damage": {
-							"min": 59,
-							"max": 69
+							"min": 62,
+							"max": 72
 						}
 					}
 				}
@@ -12624,24 +12619,24 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 38,
-							"max": 46
+							"min": 36,
+							"max": 44
 						},
 						"melee_armour_bypass": 6,
 						"climb": 20
 					},
 					"good": {
 						"damage": {
-							"min": 50,
-							"max": 58
+							"min": 48,
+							"max": 56
 						},
 						"melee_armour_bypass": 12,
 						"climb": 30
 					},
 					"masterwork": {
 						"damage": {
-							"min": 62,
-							"max": 70
+							"min": 60,
+							"max": 68
 						},
 						"melee_armour_bypass": 18,
 						"climb": 40
@@ -12809,22 +12804,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 36,
-							"max": 46
+							"min": 35,
+							"max": 45
 						},
 						"critical_hit_chance": 8
 					},
 					"good": {
 						"damage": {
-							"min": 48,
-							"max": 58
+							"min": 47,
+							"max": 57
 						},
 						"critical_hit_chance": 12
 					},
 					"masterwork": {
 						"damage": {
-							"min": 60,
-							"max": 70
+							"min": 59,
+							"max": 69
 						},
 						"critical_hit_chance": 16
 					}
@@ -12993,7 +12988,7 @@
 				"type": "melee",
 				"name": "Spear",
 				"description": "Quick: Attacks bypass {{ dodge_bypass }}% Dodge chance.<br>Nimble: Attacks bypass {{ parry_bypass }}% Parry chance.<br>Unwieldy: Only a Shield may be equipped in the offhand.",
-				"initiative": 10,
+				"initiative": 5,
 				"effects": {
 					"normal": {
 						"damage": {
@@ -13064,7 +13059,7 @@
 				"type": "melee",
 				"name": "Sword",
 				"description": "Parrying: Allows the use of Parry stance.<br>Savage: Critical hit chance +{{ critical_hit_chance }}%.",
-				"initiative": 5,
+				"initiative": 10,
 				"effects": {
 					"normal": {
 						"damage": {
@@ -13141,7 +13136,7 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 15,
+							"min": 13,
 							"max": 19
 						},
 						"ranged_hit_chance": 8,
@@ -13149,7 +13144,7 @@
 					},
 					"good": {
 						"damage": {
-							"min": 21,
+							"min": 19,
 							"max": 25
 						},
 						"ranged_hit_chance": 10,
@@ -13157,7 +13152,7 @@
 					},
 					"masterwork": {
 						"damage": {
-							"min": 27,
+							"min": 25,
 							"max": 31
 						},
 						"ranged_hit_chance": 12,
@@ -13206,7 +13201,7 @@
 					"normal": {
 						"damage": {
 							"min": 20,
-							"max": 26
+							"max": 24
 						},
 						"ranged_armour_bypass": 9,
 						"range": 25
@@ -13214,7 +13209,7 @@
 					"good": {
 						"damage": {
 							"min": 26,
-							"max": 32
+							"max": 30
 						},
 						"ranged_armour_bypass": 12,
 						"range": 30
@@ -13222,7 +13217,7 @@
 					"masterwork": {
 						"damage": {
 							"min": 32,
-							"max": 38
+							"max": 36
 						},
 						"ranged_armour_bypass": 15,
 						"range": 35
