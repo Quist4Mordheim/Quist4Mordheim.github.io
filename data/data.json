@@ -7890,7 +7890,7 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 4
+					"mastery": 2
 				},
 				"description": {
 					"basic": "Increases Movement range with 2 meters for 2 turns after being Ambushed. Stackable.",
