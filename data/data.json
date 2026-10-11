@@ -7890,11 +7890,11 @@
 				},
 				"cost": {
 					"basic": 2,
-					"mastery": 2
+					"mastery": 4
 				},
 				"description": {
 					"basic": "Increases Movement range with 2 meters for 2 turns after being Ambushed. Stackable.",
-					"mastery": "Movement range increases to 4 meters for 3 turns instead. Easy to Master."
+					"mastery": "Movement range increases to 4 meters for 3 turns instead."
 				},
 				"icon": "intelligence_knowledge_ambush"
 			},
